@@ -7,6 +7,8 @@ var vert2 : Vector3
 var vert3 : Vector3
 var neighbours: Array
 var plate_index: int = -1
+var movement_direction: Vector3
+
 
 const VECTOR_TOLERANCE: float = 0.001
 const NO_PLATE_INDEX = -1
@@ -39,7 +41,7 @@ func rounded_vertices() -> Array:
 	return ret
 
 
-func calc_surface_normal() -> Vector3:
+func normale() -> Vector3:
 	var U = vert2 - vert1
 	var V = vert3 - vert1
 	return U.cross(V).normalized()
@@ -62,6 +64,7 @@ func draw(parent: Spatial, name: String, color: Color) -> void:
 
 	var material = SpatialMaterial.new()
 	material.albedo_color = color
+	material.albedo_texture = load("res://arrow.png")
 
 	var mesh = Mesh.new()
 	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, surface_array)

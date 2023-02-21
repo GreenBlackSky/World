@@ -1,8 +1,9 @@
-[gd_scene load_steps=162 format=2]
+[gd_scene load_steps=483 format=2]
 
 [ext_resource path="res://Sphere.tscn" type="PackedScene" id=1]
+[ext_resource path="res://arrow.png" type="Texture" id=2]
 
-[sub_resource type="ArrayMesh" id=1]
+[sub_resource type="ArrayMesh" id=801]
 surfaces/0 = {
 "aabb": AABB( -1.53884, 0.951057, 0, 0.951056, 0.666987, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63 ),
@@ -15,10 +16,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=2]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=802]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=3]
+[sub_resource type="ArrayMesh" id=803]
 surfaces/0 = {
 "aabb": AABB( -1.61803, 0, 0.587785, 0.666977, 0.951067, 0.951056 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63 ),
@@ -31,10 +33,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=4]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=804]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=5]
+[sub_resource type="ArrayMesh" id=805]
 surfaces/0 = {
 "aabb": AABB( -0.951057, 0.587785, 0.951057, 0.951057, 0.951066, 0.666977 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63 ),
@@ -47,10 +50,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=6]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=806]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=7]
+[sub_resource type="ArrayMesh" id=807]
 surfaces/0 = {
 "aabb": AABB( -1.53884, 0.587785, 0.587785, 0.951056, 0.951056, 0.951066 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63 ),
@@ -63,10 +67,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=8]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=808]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=9]
+[sub_resource type="ArrayMesh" id=809]
 surfaces/0 = {
 "aabb": AABB( -1, 1.53884, 0, 1, 0.363271, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0 ),
@@ -79,10 +84,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=10]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=810]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=11]
+[sub_resource type="ArrayMesh" id=811]
 surfaces/0 = {
 "aabb": AABB( -0.587785, 1, 0.951057, 1.17557, 0.538852, 0.666977 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63 ),
@@ -95,10 +101,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=12]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=812]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=13]
+[sub_resource type="ArrayMesh" id=813]
 surfaces/0 = {
 "aabb": AABB( 0, 1.53884, 0, 1, 0.363281, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0 ),
@@ -111,10 +118,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=14]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=814]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=15]
+[sub_resource type="ArrayMesh" id=815]
 surfaces/0 = {
 "aabb": AABB( -0.587785, 1.53884, 0, 1.17558, 0.363271, 0.951067 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63 ),
@@ -127,10 +135,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=16]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=816]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=17]
+[sub_resource type="ArrayMesh" id=817]
 surfaces/0 = {
 "aabb": AABB( -1, 1.53884, -0.951057, 1, 0.363271, 0.951067 ),
 "array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191 ),
@@ -143,10 +152,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=18]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=818]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=19]
+[sub_resource type="ArrayMesh" id=819]
 surfaces/0 = {
 "aabb": AABB( 0, 1.53884, -0.951057, 1, 0.363281, 0.951067 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191 ),
@@ -159,10 +169,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=20]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=820]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=21]
+[sub_resource type="ArrayMesh" id=821]
 surfaces/0 = {
 "aabb": AABB( -0.587785, 1, -1.61803, 1.17557, 0.538852, 0.666987 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191 ),
@@ -175,10 +186,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=22]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=822]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=23]
+[sub_resource type="ArrayMesh" id=823]
 surfaces/0 = {
 "aabb": AABB( -0.587785, 1.53884, -0.951057, 1.17558, 0.363271, 0.951057 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0 ),
@@ -191,10 +203,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=24]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=824]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=25]
+[sub_resource type="ArrayMesh" id=825]
 surfaces/0 = {
 "aabb": AABB( -1.53884, 0.951057, -0.951057, 0.951056, 0.666987, 0.951067 ),
 "array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191 ),
@@ -207,10 +220,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=26]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=826]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=27]
+[sub_resource type="ArrayMesh" id=827]
 surfaces/0 = {
 "aabb": AABB( -0.951057, 0.587785, -1.61803, 0.951057, 0.951066, 0.666987 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191 ),
@@ -223,10 +237,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=28]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=828]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=29]
+[sub_resource type="ArrayMesh" id=829]
 surfaces/0 = {
 "aabb": AABB( -1.61803, 0, -1.53884, 0.666977, 0.951067, 0.951066 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191 ),
@@ -239,10 +254,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=30]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=830]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=31]
+[sub_resource type="ArrayMesh" id=831]
 surfaces/0 = {
 "aabb": AABB( -1.53884, 0.587785, -1.53884, 0.951056, 0.951056, 0.951056 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191 ),
@@ -255,10 +271,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=32]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=832]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=33]
+[sub_resource type="ArrayMesh" id=833]
 surfaces/0 = {
 "aabb": AABB( -1.53884, 0.951057, -0.587785, 0.538852, 0.666987, 1.17557 ),
 "array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63 ),
@@ -271,10 +288,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=34]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=834]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=35]
+[sub_resource type="ArrayMesh" id=835]
 surfaces/0 = {
 "aabb": AABB( -1.90211, 0, -1, 0.363281, 0.951067, 1 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0 ),
@@ -287,10 +305,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=36]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=836]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=37]
+[sub_resource type="ArrayMesh" id=837]
 surfaces/0 = {
 "aabb": AABB( -1.90211, 0, 0, 0.363281, 0.951067, 1 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63 ),
@@ -303,10 +322,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=38]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=838]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=39]
+[sub_resource type="ArrayMesh" id=839]
 surfaces/0 = {
 "aabb": AABB( -1.90211, 0, -0.587785, 0.363271, 0.951057, 1.17557 ),
 "array_data": PoolByteArray( 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191 ),
@@ -319,10 +339,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=40]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=840]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=41]
+[sub_resource type="ArrayMesh" id=841]
 surfaces/0 = {
 "aabb": AABB( 0.587785, 0.951057, 0, 0.951056, 0.666987, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63 ),
@@ -335,10 +356,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=42]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=842]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=43]
+[sub_resource type="ArrayMesh" id=843]
 surfaces/0 = {
 "aabb": AABB( 0, 0.587785, 0.951057, 0.951057, 0.951066, 0.666977 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63 ),
@@ -351,10 +373,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=44]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=844]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=45]
+[sub_resource type="ArrayMesh" id=845]
 surfaces/0 = {
 "aabb": AABB( 0.951057, 0, 0.587785, 0.666977, 0.951067, 0.951056 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63 ),
@@ -367,10 +390,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=46]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=846]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=47]
+[sub_resource type="ArrayMesh" id=847]
 surfaces/0 = {
 "aabb": AABB( 0.587785, 0.587785, 0.587785, 0.951056, 0.951056, 0.951066 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63 ),
@@ -383,10 +407,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=48]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=848]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=49]
+[sub_resource type="ArrayMesh" id=849]
 surfaces/0 = {
 "aabb": AABB( -0.951057, 0, 1.53884, 0.951067, 1.00001, 0.363271 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63 ),
@@ -399,10 +424,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=50]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=850]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=51]
+[sub_resource type="ArrayMesh" id=851]
 surfaces/0 = {
 "aabb": AABB( -1.61803, -0.587785, 1, 0.666987, 1.17558, 0.538852 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63 ),
@@ -415,10 +441,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=52]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=852]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=53]
+[sub_resource type="ArrayMesh" id=853]
 surfaces/0 = {
 "aabb": AABB( -0.951057, -1, 1.53884, 0.951067, 1.00001, 0.363281 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63 ),
@@ -431,10 +458,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=54]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=854]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=55]
+[sub_resource type="ArrayMesh" id=855]
 surfaces/0 = {
 "aabb": AABB( -0.951057, -0.587785, 1.53884, 0.951057, 1.17557, 0.363271 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63 ),
@@ -447,10 +475,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=56]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=856]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=57]
+[sub_resource type="ArrayMesh" id=857]
 surfaces/0 = {
 "aabb": AABB( -1.90211, -0.951057, 0, 0.363271, 0.951067, 1.00001 ),
 "array_data": PoolByteArray( 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63 ),
@@ -463,10 +492,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=58]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=858]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=59]
+[sub_resource type="ArrayMesh" id=859]
 surfaces/0 = {
 "aabb": AABB( -1.90211, -0.951057, -1, 0.363271, 0.951067, 1.00001 ),
 "array_data": PoolByteArray( 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191 ),
@@ -479,10 +509,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=60]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=860]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=61]
+[sub_resource type="ArrayMesh" id=861]
 surfaces/0 = {
 "aabb": AABB( -1.53884, -1.61803, -0.587785, 0.538842, 0.666987, 1.17558 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0 ),
@@ -495,10 +526,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=62]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=862]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=63]
+[sub_resource type="ArrayMesh" id=863]
 surfaces/0 = {
 "aabb": AABB( -1.90211, -0.951057, -0.587785, 0.363281, 0.951057, 1.17557 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0 ),
@@ -511,10 +543,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=64]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=864]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=65]
+[sub_resource type="ArrayMesh" id=865]
 surfaces/0 = {
 "aabb": AABB( -1.61803, -0.587785, -1.53884, 0.666977, 1.17557, 0.538852 ),
 "array_data": PoolByteArray( 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191 ),
@@ -527,10 +560,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=66]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=866]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=67]
+[sub_resource type="ArrayMesh" id=867]
 surfaces/0 = {
 "aabb": AABB( -0.951057, 0, -1.90211, 0.951057, 1, 0.363281 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191 ),
@@ -543,10 +577,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=68]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=868]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=69]
+[sub_resource type="ArrayMesh" id=869]
 surfaces/0 = {
 "aabb": AABB( -0.951057, -1, -1.90211, 0.951057, 1, 0.363281 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191 ),
@@ -559,10 +594,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=70]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=870]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=71]
+[sub_resource type="ArrayMesh" id=871]
 surfaces/0 = {
 "aabb": AABB( -0.951057, -0.587785, -1.90211, 0.951067, 1.17557, 0.363271 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191 ),
@@ -575,10 +611,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=72]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=872]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=73]
+[sub_resource type="ArrayMesh" id=873]
 surfaces/0 = {
 "aabb": AABB( 0, 0.587785, -1.61803, 0.951057, 0.951056, 0.666977 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191 ),
@@ -591,10 +628,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=74]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=874]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=75]
+[sub_resource type="ArrayMesh" id=875]
 surfaces/0 = {
 "aabb": AABB( 0.587785, 0.951057, -0.951057, 0.951056, 0.666977, 0.951057 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191 ),
@@ -607,10 +645,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=76]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=876]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=77]
+[sub_resource type="ArrayMesh" id=877]
 surfaces/0 = {
 "aabb": AABB( 0.951057, 0, -1.53884, 0.666977, 0.951057, 0.951056 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191 ),
@@ -623,10 +662,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=78]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=878]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=79]
+[sub_resource type="ArrayMesh" id=879]
 surfaces/0 = {
 "aabb": AABB( 0.587785, 0.587785, -1.53884, 0.951066, 0.951056, 0.951066 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191 ),
@@ -639,10 +679,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=80]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=880]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=81]
+[sub_resource type="ArrayMesh" id=881]
 surfaces/0 = {
 "aabb": AABB( 0.587785, -1.61803, 0, 0.951056, 0.666977, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63 ),
@@ -655,10 +696,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=82]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=882]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=83]
+[sub_resource type="ArrayMesh" id=883]
 surfaces/0 = {
 "aabb": AABB( 0.951057, -0.951057, 0.587785, 0.666977, 0.951057, 0.951056 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63 ),
@@ -671,10 +713,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=84]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=884]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=85]
+[sub_resource type="ArrayMesh" id=885]
 surfaces/0 = {
 "aabb": AABB( 0, -1.53884, 0.951057, 0.951057, 0.951056, 0.666977 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63 ),
@@ -687,10 +730,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=86]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=886]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=87]
+[sub_resource type="ArrayMesh" id=887]
 surfaces/0 = {
 "aabb": AABB( 0.587785, -1.53884, 0.587785, 0.951056, 0.951066, 0.951066 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63 ),
@@ -703,10 +747,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=88]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=888]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=89]
+[sub_resource type="ArrayMesh" id=889]
 surfaces/0 = {
 "aabb": AABB( 0, -1.90211, 0, 1.00001, 0.363271, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0 ),
@@ -719,10 +764,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=90]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=890]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=91]
+[sub_resource type="ArrayMesh" id=891]
 surfaces/0 = {
 "aabb": AABB( -0.587785, -1.53884, 0.951057, 1.17558, 0.538842, 0.666977 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63 ),
@@ -735,10 +781,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=92]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=892]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=93]
+[sub_resource type="ArrayMesh" id=893]
 surfaces/0 = {
 "aabb": AABB( -1, -1.90211, 0, 1.00001, 0.363271, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0 ),
@@ -751,10 +798,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=94]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=894]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=95]
+[sub_resource type="ArrayMesh" id=895]
 surfaces/0 = {
 "aabb": AABB( -0.587785, -1.90211, 0, 1.17557, 0.363281, 0.951067 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63 ),
@@ -767,10 +815,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=96]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=896]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=97]
+[sub_resource type="ArrayMesh" id=897]
 surfaces/0 = {
 "aabb": AABB( 0, -1.90211, -0.951057, 1.00001, 0.363271, 0.951067 ),
 "array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191 ),
@@ -783,10 +832,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=98]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=898]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=99]
+[sub_resource type="ArrayMesh" id=899]
 surfaces/0 = {
 "aabb": AABB( -1, -1.90211, -0.951057, 1.00001, 0.363271, 0.951067 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191 ),
@@ -799,10 +849,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=100]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=900]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=101]
+[sub_resource type="ArrayMesh" id=901]
 surfaces/0 = {
 "aabb": AABB( -0.587785, -1.53884, -1.61803, 1.17558, 0.538842, 0.666987 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191 ),
@@ -815,10 +866,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=102]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=902]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=103]
+[sub_resource type="ArrayMesh" id=903]
 surfaces/0 = {
 "aabb": AABB( -0.587785, -1.90211, -0.951057, 1.17557, 0.363281, 0.951057 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0 ),
@@ -831,10 +883,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=104]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=904]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=105]
+[sub_resource type="ArrayMesh" id=905]
 surfaces/0 = {
 "aabb": AABB( 0.587785, -1.61803, -0.951057, 0.951056, 0.666977, 0.951067 ),
 "array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191 ),
@@ -847,10 +900,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=106]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=906]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=107]
+[sub_resource type="ArrayMesh" id=907]
 surfaces/0 = {
 "aabb": AABB( 0, -1.53884, -1.61803, 0.951057, 0.951056, 0.666987 ),
 "array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191 ),
@@ -863,10 +917,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=108]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=908]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=109]
+[sub_resource type="ArrayMesh" id=909]
 surfaces/0 = {
 "aabb": AABB( 0.951057, -0.951057, -1.53884, 0.666977, 0.951057, 0.951066 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191 ),
@@ -879,10 +934,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=110]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=910]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=111]
+[sub_resource type="ArrayMesh" id=911]
 surfaces/0 = {
 "aabb": AABB( 0.587785, -1.53884, -1.53884, 0.951056, 0.951066, 0.951056 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191 ),
@@ -895,10 +951,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=112]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=912]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=113]
+[sub_resource type="ArrayMesh" id=913]
 surfaces/0 = {
 "aabb": AABB( 1, -1.61803, -0.587785, 0.538842, 0.666977, 1.17557 ),
 "array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63 ),
@@ -911,10 +968,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=114]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=914]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=115]
+[sub_resource type="ArrayMesh" id=915]
 surfaces/0 = {
 "aabb": AABB( 1.53884, -0.951057, -1, 0.363271, 0.951057, 1 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0 ),
@@ -927,10 +985,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=116]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=916]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=117]
+[sub_resource type="ArrayMesh" id=917]
 surfaces/0 = {
 "aabb": AABB( 1.53884, -0.951057, 0, 0.363271, 0.951057, 1 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63 ),
@@ -943,10 +1002,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=118]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=918]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=119]
+[sub_resource type="ArrayMesh" id=919]
 surfaces/0 = {
 "aabb": AABB( 1.53884, -0.951057, -0.587785, 0.363281, 0.951067, 1.17557 ),
 "array_data": PoolByteArray( 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191 ),
@@ -959,10 +1019,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=120]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=920]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=121]
+[sub_resource type="ArrayMesh" id=921]
 surfaces/0 = {
 "aabb": AABB( 0, -1, 1.53884, 0.951057, 1, 0.363271 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63 ),
@@ -975,10 +1036,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=122]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=922]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=123]
+[sub_resource type="ArrayMesh" id=923]
 surfaces/0 = {
 "aabb": AABB( 0.951057, -0.587785, 1, 0.666977, 1.17557, 0.538852 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63 ),
@@ -991,10 +1053,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=124]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=924]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=125]
+[sub_resource type="ArrayMesh" id=925]
 surfaces/0 = {
 "aabb": AABB( 0, 0, 1.53884, 0.951057, 1, 0.363281 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63 ),
@@ -1007,10 +1070,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=126]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=926]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=127]
+[sub_resource type="ArrayMesh" id=927]
 surfaces/0 = {
 "aabb": AABB( 0, -0.587785, 1.53884, 0.951067, 1.17558, 0.363271 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63 ),
@@ -1023,10 +1087,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=128]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=928]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=129]
+[sub_resource type="ArrayMesh" id=929]
 surfaces/0 = {
 "aabb": AABB( -1.53884, -1.61803, 0, 0.951056, 0.666977, 0.951057 ),
 "array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63 ),
@@ -1039,10 +1104,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=130]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=930]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=131]
+[sub_resource type="ArrayMesh" id=931]
 surfaces/0 = {
 "aabb": AABB( -0.951057, -1.53884, 0.951057, 0.951057, 0.951056, 0.666977 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63 ),
@@ -1055,10 +1121,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=132]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=932]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=133]
+[sub_resource type="ArrayMesh" id=933]
 surfaces/0 = {
 "aabb": AABB( -1.61803, -0.951057, 0.587785, 0.666977, 0.951057, 0.951056 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63 ),
@@ -1071,10 +1138,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=134]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=934]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=135]
+[sub_resource type="ArrayMesh" id=935]
 surfaces/0 = {
 "aabb": AABB( -1.53884, -1.53884, 0.587785, 0.951056, 0.951066, 0.951066 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63 ),
@@ -1087,10 +1155,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=136]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=936]
+albedo_color = Color( 0.294333, 0.927652, 0.127198, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=137]
+[sub_resource type="ArrayMesh" id=937]
 surfaces/0 = {
 "aabb": AABB( -0.951057, -1.53884, -1.61803, 0.951067, 0.951056, 0.666977 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191 ),
@@ -1103,10 +1172,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=138]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=938]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=139]
+[sub_resource type="ArrayMesh" id=939]
 surfaces/0 = {
 "aabb": AABB( -1.53884, -1.61803, -0.951057, 0.951066, 0.666977, 0.951057 ),
 "array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191 ),
@@ -1119,10 +1189,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=140]
-albedo_color = Color( 0.593197, 0.965352, 0.346404, 1 )
+[sub_resource type="SpatialMaterial" id=940]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=141]
+[sub_resource type="ArrayMesh" id=941]
 surfaces/0 = {
 "aabb": AABB( -1.61803, -0.951057, -1.53884, 0.666987, 0.951057, 0.951056 ),
 "array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191 ),
@@ -1135,10 +1206,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=142]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=942]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=143]
+[sub_resource type="ArrayMesh" id=943]
 surfaces/0 = {
 "aabb": AABB( -1.53884, -1.53884, -1.53884, 0.951056, 0.951056, 0.951066 ),
 "array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191 ),
@@ -1151,10 +1223,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=144]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=944]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=145]
+[sub_resource type="ArrayMesh" id=945]
 surfaces/0 = {
 "aabb": AABB( 0.951057, -0.587785, -1.53884, 0.666987, 1.17557, 0.538852 ),
 "array_data": PoolByteArray( 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191 ),
@@ -1167,10 +1240,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=146]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=946]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=147]
+[sub_resource type="ArrayMesh" id=947]
 surfaces/0 = {
 "aabb": AABB( 0, -1, -1.90211, 0.951067, 1, 0.363281 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191 ),
@@ -1183,10 +1257,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=148]
-albedo_color = Color( 0.0562881, 0.416914, 0.742357, 1 )
+[sub_resource type="SpatialMaterial" id=948]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=149]
+[sub_resource type="ArrayMesh" id=949]
 surfaces/0 = {
 "aabb": AABB( 0, 0, -1.90211, 0.951067, 1, 0.363281 ),
 "array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191 ),
@@ -1199,10 +1274,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=150]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=950]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=151]
+[sub_resource type="ArrayMesh" id=951]
 surfaces/0 = {
 "aabb": AABB( 0, -0.587785, -1.90211, 0.951057, 1.17557, 0.363271 ),
 "array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191 ),
@@ -1215,10 +1291,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=152]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=952]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=153]
+[sub_resource type="ArrayMesh" id=953]
 surfaces/0 = {
 "aabb": AABB( 1.53884, 0, 0, 0.363271, 0.951057, 1.00001 ),
 "array_data": PoolByteArray( 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63 ),
@@ -1231,10 +1308,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=154]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=954]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=155]
+[sub_resource type="ArrayMesh" id=955]
 surfaces/0 = {
 "aabb": AABB( 1.53884, 0, -1, 0.363281, 0.951057, 1.00001 ),
 "array_data": PoolByteArray( 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191 ),
@@ -1247,10 +1325,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=156]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=956]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=157]
+[sub_resource type="ArrayMesh" id=957]
 surfaces/0 = {
 "aabb": AABB( 1, 0.951057, -0.587785, 0.538852, 0.666977, 1.17558 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0 ),
@@ -1263,10 +1342,11 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=158]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=958]
+albedo_color = Color( 0.818987, 0.666091, 0.183578, 1 )
+albedo_texture = ExtResource( 2 )
 
-[sub_resource type="ArrayMesh" id=159]
+[sub_resource type="ArrayMesh" id=959]
 surfaces/0 = {
 "aabb": AABB( 1.53884, 0, -0.587785, 0.363271, 0.951067, 1.17557 ),
 "array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0 ),
@@ -1279,330 +1359,3701 @@ surfaces/0 = {
 "vertex_count": 3
 }
 
-[sub_resource type="SpatialMaterial" id=160]
-albedo_color = Color( 0.682695, 0.250648, 0.242321, 1 )
+[sub_resource type="SpatialMaterial" id=960]
+albedo_color = Color( 0.885018, 0.663277, 0.164477, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=641]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.951057, 0, 0.951056, 0.666987, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=642]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=643]
+surfaces/0 = {
+"aabb": AABB( -1.61803, 0, 0.587785, 0.666977, 0.951067, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=644]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=645]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0.587785, 0.951057, 0.951057, 0.951066, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=646]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=647]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.587785, 0.587785, 0.951056, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=648]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=649]
+surfaces/0 = {
+"aabb": AABB( -1, 1.53884, 0, 1, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=650]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=651]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1, 0.951057, 1.17557, 0.538852, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=652]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=653]
+surfaces/0 = {
+"aabb": AABB( 0, 1.53884, 0, 1, 0.363281, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=654]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=655]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1.53884, 0, 1.17558, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=656]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=657]
+surfaces/0 = {
+"aabb": AABB( -1, 1.53884, -0.951057, 1, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=658]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=659]
+surfaces/0 = {
+"aabb": AABB( 0, 1.53884, -0.951057, 1, 0.363281, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=660]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=661]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1, -1.61803, 1.17557, 0.538852, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=662]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=663]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1.53884, -0.951057, 1.17558, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=664]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=665]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.951057, -0.951057, 0.951056, 0.666987, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=666]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=667]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0.587785, -1.61803, 0.951057, 0.951066, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=668]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=669]
+surfaces/0 = {
+"aabb": AABB( -1.61803, 0, -1.53884, 0.666977, 0.951067, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=670]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=671]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.587785, -1.53884, 0.951056, 0.951056, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=672]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=673]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.951057, -0.587785, 0.538852, 0.666987, 1.17557 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=674]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=675]
+surfaces/0 = {
+"aabb": AABB( -1.90211, 0, -1, 0.363281, 0.951067, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=676]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=677]
+surfaces/0 = {
+"aabb": AABB( -1.90211, 0, 0, 0.363281, 0.951067, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=678]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=679]
+surfaces/0 = {
+"aabb": AABB( -1.90211, 0, -0.587785, 0.363271, 0.951057, 1.17557 ),
+"array_data": PoolByteArray( 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=680]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=681]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.951057, 0, 0.951056, 0.666987, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=682]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=683]
+surfaces/0 = {
+"aabb": AABB( 0, 0.587785, 0.951057, 0.951057, 0.951066, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=684]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=685]
+surfaces/0 = {
+"aabb": AABB( 0.951057, 0, 0.587785, 0.666977, 0.951067, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=686]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=687]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.587785, 0.587785, 0.951056, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=688]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=689]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0, 1.53884, 0.951067, 1.00001, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=690]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=691]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.587785, 1, 0.666987, 1.17558, 0.538852 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=692]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=693]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1, 1.53884, 0.951067, 1.00001, 0.363281 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=694]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=695]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -0.587785, 1.53884, 0.951057, 1.17557, 0.363271 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=696]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=697]
+surfaces/0 = {
+"aabb": AABB( -1.90211, -0.951057, 0, 0.363271, 0.951067, 1.00001 ),
+"array_data": PoolByteArray( 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=698]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=699]
+surfaces/0 = {
+"aabb": AABB( -1.90211, -0.951057, -1, 0.363271, 0.951067, 1.00001 ),
+"array_data": PoolByteArray( 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=700]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=701]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.61803, -0.587785, 0.538842, 0.666987, 1.17558 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=702]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=703]
+surfaces/0 = {
+"aabb": AABB( -1.90211, -0.951057, -0.587785, 0.363281, 0.951057, 1.17557 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=704]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=705]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.587785, -1.53884, 0.666977, 1.17557, 0.538852 ),
+"array_data": PoolByteArray( 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=706]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=707]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0, -1.90211, 0.951057, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=708]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=709]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1, -1.90211, 0.951057, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=710]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=711]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -0.587785, -1.90211, 0.951067, 1.17557, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=712]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=713]
+surfaces/0 = {
+"aabb": AABB( 0, 0.587785, -1.61803, 0.951057, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=714]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=715]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.951057, -0.951057, 0.951056, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=716]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=717]
+surfaces/0 = {
+"aabb": AABB( 0.951057, 0, -1.53884, 0.666977, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=718]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=719]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.587785, -1.53884, 0.951066, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=720]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=721]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.61803, 0, 0.951056, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=722]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=723]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.951057, 0.587785, 0.666977, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=724]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=725]
+surfaces/0 = {
+"aabb": AABB( 0, -1.53884, 0.951057, 0.951057, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=726]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=727]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.53884, 0.587785, 0.951056, 0.951066, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=728]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=729]
+surfaces/0 = {
+"aabb": AABB( 0, -1.90211, 0, 1.00001, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=730]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=731]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.53884, 0.951057, 1.17558, 0.538842, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=732]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=733]
+surfaces/0 = {
+"aabb": AABB( -1, -1.90211, 0, 1.00001, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=734]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=735]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.90211, 0, 1.17557, 0.363281, 0.951067 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=736]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=737]
+surfaces/0 = {
+"aabb": AABB( 0, -1.90211, -0.951057, 1.00001, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=738]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=739]
+surfaces/0 = {
+"aabb": AABB( -1, -1.90211, -0.951057, 1.00001, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=740]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=741]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.53884, -1.61803, 1.17558, 0.538842, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=742]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=743]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.90211, -0.951057, 1.17557, 0.363281, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=744]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=745]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.61803, -0.951057, 0.951056, 0.666977, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=746]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=747]
+surfaces/0 = {
+"aabb": AABB( 0, -1.53884, -1.61803, 0.951057, 0.951056, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=748]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=749]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.951057, -1.53884, 0.666977, 0.951057, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=750]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=751]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.53884, -1.53884, 0.951056, 0.951066, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=752]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=753]
+surfaces/0 = {
+"aabb": AABB( 1, -1.61803, -0.587785, 0.538842, 0.666977, 1.17557 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=754]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=755]
+surfaces/0 = {
+"aabb": AABB( 1.53884, -0.951057, -1, 0.363271, 0.951057, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=756]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=757]
+surfaces/0 = {
+"aabb": AABB( 1.53884, -0.951057, 0, 0.363271, 0.951057, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=758]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=759]
+surfaces/0 = {
+"aabb": AABB( 1.53884, -0.951057, -0.587785, 0.363281, 0.951067, 1.17557 ),
+"array_data": PoolByteArray( 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=760]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=761]
+surfaces/0 = {
+"aabb": AABB( 0, -1, 1.53884, 0.951057, 1, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=762]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=763]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.587785, 1, 0.666977, 1.17557, 0.538852 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=764]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=765]
+surfaces/0 = {
+"aabb": AABB( 0, 0, 1.53884, 0.951057, 1, 0.363281 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=766]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=767]
+surfaces/0 = {
+"aabb": AABB( 0, -0.587785, 1.53884, 0.951067, 1.17558, 0.363271 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=768]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=769]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.61803, 0, 0.951056, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=770]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=771]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1.53884, 0.951057, 0.951057, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=772]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=773]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.951057, 0.587785, 0.666977, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=774]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=775]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.53884, 0.587785, 0.951056, 0.951066, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=776]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=777]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1.53884, -1.61803, 0.951067, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=778]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=779]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.61803, -0.951057, 0.951066, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=780]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=781]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.951057, -1.53884, 0.666987, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=782]
+albedo_color = Color( 0.5706, 0.525467, 0.946573, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=783]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.53884, -1.53884, 0.951056, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=784]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=785]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.587785, -1.53884, 0.666987, 1.17557, 0.538852 ),
+"array_data": PoolByteArray( 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=786]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=787]
+surfaces/0 = {
+"aabb": AABB( 0, -1, -1.90211, 0.951067, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=788]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=789]
+surfaces/0 = {
+"aabb": AABB( 0, 0, -1.90211, 0.951067, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=790]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=791]
+surfaces/0 = {
+"aabb": AABB( 0, -0.587785, -1.90211, 0.951057, 1.17557, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=792]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=793]
+surfaces/0 = {
+"aabb": AABB( 1.53884, 0, 0, 0.363271, 0.951057, 1.00001 ),
+"array_data": PoolByteArray( 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=794]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=795]
+surfaces/0 = {
+"aabb": AABB( 1.53884, 0, -1, 0.363281, 0.951057, 1.00001 ),
+"array_data": PoolByteArray( 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=796]
+albedo_color = Color( 0.616169, 0.570311, 0.364135, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=797]
+surfaces/0 = {
+"aabb": AABB( 1, 0.951057, -0.587785, 0.538852, 0.666977, 1.17558 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=798]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=799]
+surfaces/0 = {
+"aabb": AABB( 1.53884, 0, -0.587785, 0.363271, 0.951067, 1.17557 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=800]
+albedo_color = Color( 0.199287, 0.714663, 0.858207, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=961]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.951057, 0, 0.951056, 0.666987, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=962]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=963]
+surfaces/0 = {
+"aabb": AABB( -1.61803, 0, 0.587785, 0.666977, 0.951067, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=964]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=965]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0.587785, 0.951057, 0.951057, 0.951066, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=966]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=967]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.587785, 0.587785, 0.951056, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=968]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=969]
+surfaces/0 = {
+"aabb": AABB( -1, 1.53884, 0, 1, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=970]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=971]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1, 0.951057, 1.17557, 0.538852, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=972]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=973]
+surfaces/0 = {
+"aabb": AABB( 0, 1.53884, 0, 1, 0.363281, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=974]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=975]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1.53884, 0, 1.17558, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=976]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=977]
+surfaces/0 = {
+"aabb": AABB( -1, 1.53884, -0.951057, 1, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=978]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=979]
+surfaces/0 = {
+"aabb": AABB( 0, 1.53884, -0.951057, 1, 0.363281, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=980]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=981]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1, -1.61803, 1.17557, 0.538852, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=982]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=983]
+surfaces/0 = {
+"aabb": AABB( -0.587785, 1.53884, -0.951057, 1.17558, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 113, 120, 243, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=984]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=985]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.951057, -0.951057, 0.951056, 0.666987, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=986]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=987]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0.587785, -1.61803, 0.951057, 0.951066, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=988]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=989]
+surfaces/0 = {
+"aabb": AABB( -1.61803, 0, -1.53884, 0.666977, 0.951067, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=990]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=991]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.587785, -1.53884, 0.951056, 0.951056, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=992]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=993]
+surfaces/0 = {
+"aabb": AABB( -1.53884, 0.951057, -0.587785, 0.538852, 0.666987, 1.17557 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=994]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=995]
+surfaces/0 = {
+"aabb": AABB( -1.90211, 0, -1, 0.363281, 0.951067, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=996]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=997]
+surfaces/0 = {
+"aabb": AABB( -1.90211, 0, 0, 0.363281, 0.951067, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=998]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=999]
+surfaces/0 = {
+"aabb": AABB( -1.90211, 0, -0.587785, 0.363271, 0.951057, 1.17557 ),
+"array_data": PoolByteArray( 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1000]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1001]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.951057, 0, 0.951056, 0.666987, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1002]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1003]
+surfaces/0 = {
+"aabb": AABB( 0, 0.587785, 0.951057, 0.951057, 0.951066, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1004]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1005]
+surfaces/0 = {
+"aabb": AABB( 0.951057, 0, 0.587785, 0.666977, 0.951067, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1006]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1007]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.587785, 0.587785, 0.951056, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1008]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1009]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0, 1.53884, 0.951067, 1.00001, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1010]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1011]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.587785, 1, 0.666987, 1.17558, 0.538852 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1012]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1013]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1, 1.53884, 0.951067, 1.00001, 0.363281 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1014]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1015]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -0.587785, 1.53884, 0.951057, 1.17557, 0.363271 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1016]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1017]
+surfaces/0 = {
+"aabb": AABB( -1.90211, -0.951057, 0, 0.363271, 0.951067, 1.00001 ),
+"array_data": PoolByteArray( 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1018]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1019]
+surfaces/0 = {
+"aabb": AABB( -1.90211, -0.951057, -1, 0.363271, 0.951067, 1.00001 ),
+"array_data": PoolByteArray( 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1020]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1021]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.61803, -0.587785, 0.538842, 0.666987, 1.17558 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1022]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1023]
+surfaces/0 = {
+"aabb": AABB( -1.90211, -0.951057, -0.587785, 0.363281, 0.951057, 1.17557 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1024]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1025]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.587785, -1.53884, 0.666977, 1.17557, 0.538852 ),
+"array_data": PoolByteArray( 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1026]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1027]
+surfaces/0 = {
+"aabb": AABB( -0.951057, 0, -1.90211, 0.951057, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1028]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1029]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1, -1.90211, 0.951057, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1030]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1031]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -0.587785, -1.90211, 0.951067, 1.17557, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1032]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1033]
+surfaces/0 = {
+"aabb": AABB( 0, 0.587785, -1.61803, 0.951057, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1034]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1035]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.951057, -0.951057, 0.951056, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1036]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1037]
+surfaces/0 = {
+"aabb": AABB( 0.951057, 0, -1.53884, 0.666977, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1038]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1039]
+surfaces/0 = {
+"aabb": AABB( 0.587785, 0.587785, -1.53884, 0.951066, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1040]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1041]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.61803, 0, 0.951056, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1042]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1043]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.951057, 0.587785, 0.666977, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1044]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1045]
+surfaces/0 = {
+"aabb": AABB( 0, -1.53884, 0.951057, 0.951057, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1046]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1047]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.53884, 0.587785, 0.951056, 0.951066, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1048]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1049]
+surfaces/0 = {
+"aabb": AABB( 0, -1.90211, 0, 1.00001, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1050]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1051]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.53884, 0.951057, 1.17558, 0.538842, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1052]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1053]
+surfaces/0 = {
+"aabb": AABB( -1, -1.90211, 0, 1.00001, 0.363271, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1054]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1055]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.90211, 0, 1.17557, 0.363281, 0.951067 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1056]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1057]
+surfaces/0 = {
+"aabb": AABB( 0, -1.90211, -0.951057, 1.00001, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1058]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1059]
+surfaces/0 = {
+"aabb": AABB( -1, -1.90211, -0.951057, 1.00001, 0.363271, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1060]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1061]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.53884, -1.61803, 1.17558, 0.538842, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1062]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1063]
+surfaces/0 = {
+"aabb": AABB( -0.587785, -1.90211, -0.951057, 1.17557, 0.363281, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1064]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1065]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.61803, -0.951057, 0.951056, 0.666977, 0.951067 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1066]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1067]
+surfaces/0 = {
+"aabb": AABB( 0, -1.53884, -1.61803, 0.951057, 0.951056, 0.666987 ),
+"array_data": PoolByteArray( 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1068]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1069]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.951057, -1.53884, 0.666977, 0.951057, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1070]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1071]
+surfaces/0 = {
+"aabb": AABB( 0.587785, -1.53884, -1.53884, 0.951056, 0.951066, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1072]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1073]
+surfaces/0 = {
+"aabb": AABB( 1, -1.61803, -0.587785, 0.538842, 0.666977, 1.17557 ),
+"array_data": PoolByteArray( 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1074]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1075]
+surfaces/0 = {
+"aabb": AABB( 1.53884, -0.951057, -1, 0.363271, 0.951057, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1076]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1077]
+surfaces/0 = {
+"aabb": AABB( 1.53884, -0.951057, 0, 0.363271, 0.951057, 1 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1078]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1079]
+surfaces/0 = {
+"aabb": AABB( 1.53884, -0.951057, -0.587785, 0.363281, 0.951067, 1.17557 ),
+"array_data": PoolByteArray( 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1080]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1081]
+surfaces/0 = {
+"aabb": AABB( 0, -1, 1.53884, 0.951057, 1, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1082]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1083]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.587785, 1, 0.666977, 1.17557, 0.538852 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1084]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1085]
+surfaces/0 = {
+"aabb": AABB( 0, 0, 1.53884, 0.951057, 1, 0.363281 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1086]
+albedo_color = Color( 0.390065, 0.828658, 0.72449, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1087]
+surfaces/0 = {
+"aabb": AABB( 0, -0.587785, 1.53884, 0.951067, 1.17558, 0.363271 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1088]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1089]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.61803, 0, 0.951056, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1090]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1091]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1.53884, 0.951057, 0.951057, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1092]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1093]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.951057, 0.587785, 0.666977, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1094]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1095]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.53884, 0.587785, 0.951056, 0.951066, 0.951066 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 63, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1096]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1097]
+surfaces/0 = {
+"aabb": AABB( -0.951057, -1.53884, -1.61803, 0.951067, 0.951056, 0.666977 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1098]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1099]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.61803, -0.951057, 0.951066, 0.666977, 0.951057 ),
+"array_data": PoolByteArray( 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1100]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1101]
+surfaces/0 = {
+"aabb": AABB( -1.61803, -0.951057, -1.53884, 0.666987, 0.951057, 0.951056 ),
+"array_data": PoolByteArray( 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1102]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1103]
+surfaces/0 = {
+"aabb": AABB( -1.53884, -1.53884, -1.53884, 0.951056, 0.951056, 0.951066 ),
+"array_data": PoolByteArray( 196, 248, 196, 191, 113, 120, 115, 191, 25, 121, 22, 191, 113, 120, 115, 191, 25, 121, 22, 191, 196, 248, 196, 191, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1104]
+albedo_color = Color( 0.684092, 0.15718, 0.524657, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1105]
+surfaces/0 = {
+"aabb": AABB( 0.951057, -0.587785, -1.53884, 0.666987, 1.17557, 0.538852 ),
+"array_data": PoolByteArray( 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1106]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1107]
+surfaces/0 = {
+"aabb": AABB( 0, -1, -1.90211, 0.951067, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1108]
+albedo_color = Color( 0.926564, 0.0270108, 0.176279, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1109]
+surfaces/0 = {
+"aabb": AABB( 0, 0, -1.90211, 0.951067, 1, 0.363281 ),
+"array_data": PoolByteArray( 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1110]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1111]
+surfaces/0 = {
+"aabb": AABB( 0, -0.587785, -1.90211, 0.951057, 1.17557, 0.363271 ),
+"array_data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 113, 120, 243, 191, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 191, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1112]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1113]
+surfaces/0 = {
+"aabb": AABB( 1.53884, 0, 0, 0.363271, 0.951057, 1.00001 ),
+"array_data": PoolByteArray( 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1114]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1115]
+surfaces/0 = {
+"aabb": AABB( 1.53884, 0, -1, 0.363281, 0.951057, 1.00001 ),
+"array_data": PoolByteArray( 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1116]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1117]
+surfaces/0 = {
+"aabb": AABB( 1, 0.951057, -0.587785, 0.538852, 0.666977, 1.17558 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1118]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ArrayMesh" id=1119]
+surfaces/0 = {
+"aabb": AABB( 1.53884, 0, -0.587785, 0.363271, 0.951067, 1.17557 ),
+"array_data": PoolByteArray( 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 191, 196, 248, 196, 63, 113, 120, 115, 63, 25, 121, 22, 63, 113, 120, 243, 63, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"array_index_data": PoolByteArray( 2, 0, 1, 0, 0, 0 ),
+"blend_shape_data": [  ],
+"format": 2194689,
+"index_count": 3,
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 3
+}
+
+[sub_resource type="SpatialMaterial" id=1120]
+albedo_color = Color( 0.758719, 0.983409, 0.382297, 1 )
+albedo_texture = ExtResource( 2 )
 
 [node name="Spatial" type="Spatial"]
 
+[node name="Sphere2" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.8868, -43.9468, 32.6918 )
+DENSITY = 1
+
+[node name="0" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 801 )
+material/0 = SubResource( 802 )
+
+[node name="1" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 803 )
+material/0 = SubResource( 804 )
+
+[node name="2" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 805 )
+material/0 = SubResource( 806 )
+
+[node name="3" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 807 )
+material/0 = SubResource( 808 )
+
+[node name="4" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 809 )
+material/0 = SubResource( 810 )
+
+[node name="5" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 811 )
+material/0 = SubResource( 812 )
+
+[node name="6" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 813 )
+material/0 = SubResource( 814 )
+
+[node name="7" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 815 )
+material/0 = SubResource( 816 )
+
+[node name="8" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 817 )
+material/0 = SubResource( 818 )
+
+[node name="9" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 819 )
+material/0 = SubResource( 820 )
+
+[node name="10" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 821 )
+material/0 = SubResource( 822 )
+
+[node name="11" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 823 )
+material/0 = SubResource( 824 )
+
+[node name="12" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 825 )
+material/0 = SubResource( 826 )
+
+[node name="13" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 827 )
+material/0 = SubResource( 828 )
+
+[node name="14" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 829 )
+material/0 = SubResource( 830 )
+
+[node name="15" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 831 )
+material/0 = SubResource( 832 )
+
+[node name="16" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 833 )
+material/0 = SubResource( 834 )
+
+[node name="17" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 835 )
+material/0 = SubResource( 836 )
+
+[node name="18" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 837 )
+material/0 = SubResource( 838 )
+
+[node name="19" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 839 )
+material/0 = SubResource( 840 )
+
+[node name="20" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 841 )
+material/0 = SubResource( 842 )
+
+[node name="21" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 843 )
+material/0 = SubResource( 844 )
+
+[node name="22" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 845 )
+material/0 = SubResource( 846 )
+
+[node name="23" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 847 )
+material/0 = SubResource( 848 )
+
+[node name="24" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 849 )
+material/0 = SubResource( 850 )
+
+[node name="25" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 851 )
+material/0 = SubResource( 852 )
+
+[node name="26" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 853 )
+material/0 = SubResource( 854 )
+
+[node name="27" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 855 )
+material/0 = SubResource( 856 )
+
+[node name="28" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 857 )
+material/0 = SubResource( 858 )
+
+[node name="29" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 859 )
+material/0 = SubResource( 860 )
+
+[node name="30" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 861 )
+material/0 = SubResource( 862 )
+
+[node name="31" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 863 )
+material/0 = SubResource( 864 )
+
+[node name="32" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 865 )
+material/0 = SubResource( 866 )
+
+[node name="33" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 867 )
+material/0 = SubResource( 868 )
+
+[node name="34" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 869 )
+material/0 = SubResource( 870 )
+
+[node name="35" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 871 )
+material/0 = SubResource( 872 )
+
+[node name="36" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 873 )
+material/0 = SubResource( 874 )
+
+[node name="37" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 875 )
+material/0 = SubResource( 876 )
+
+[node name="38" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 877 )
+material/0 = SubResource( 878 )
+
+[node name="39" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 879 )
+material/0 = SubResource( 880 )
+
+[node name="40" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 881 )
+material/0 = SubResource( 882 )
+
+[node name="41" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 883 )
+material/0 = SubResource( 884 )
+
+[node name="42" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 885 )
+material/0 = SubResource( 886 )
+
+[node name="43" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 887 )
+material/0 = SubResource( 888 )
+
+[node name="44" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 889 )
+material/0 = SubResource( 890 )
+
+[node name="45" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 891 )
+material/0 = SubResource( 892 )
+
+[node name="46" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 893 )
+material/0 = SubResource( 894 )
+
+[node name="47" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 895 )
+material/0 = SubResource( 896 )
+
+[node name="48" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 897 )
+material/0 = SubResource( 898 )
+
+[node name="49" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 899 )
+material/0 = SubResource( 900 )
+
+[node name="50" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 901 )
+material/0 = SubResource( 902 )
+
+[node name="51" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 903 )
+material/0 = SubResource( 904 )
+
+[node name="52" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 905 )
+material/0 = SubResource( 906 )
+
+[node name="53" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 907 )
+material/0 = SubResource( 908 )
+
+[node name="54" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 909 )
+material/0 = SubResource( 910 )
+
+[node name="55" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 911 )
+material/0 = SubResource( 912 )
+
+[node name="56" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 913 )
+material/0 = SubResource( 914 )
+
+[node name="57" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 915 )
+material/0 = SubResource( 916 )
+
+[node name="58" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 917 )
+material/0 = SubResource( 918 )
+
+[node name="59" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 919 )
+material/0 = SubResource( 920 )
+
+[node name="60" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 921 )
+material/0 = SubResource( 922 )
+
+[node name="61" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 923 )
+material/0 = SubResource( 924 )
+
+[node name="62" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 925 )
+material/0 = SubResource( 926 )
+
+[node name="63" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 927 )
+material/0 = SubResource( 928 )
+
+[node name="64" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 929 )
+material/0 = SubResource( 930 )
+
+[node name="65" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 931 )
+material/0 = SubResource( 932 )
+
+[node name="66" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 933 )
+material/0 = SubResource( 934 )
+
+[node name="67" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 935 )
+material/0 = SubResource( 936 )
+
+[node name="68" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 937 )
+material/0 = SubResource( 938 )
+
+[node name="69" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 939 )
+material/0 = SubResource( 940 )
+
+[node name="70" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 941 )
+material/0 = SubResource( 942 )
+
+[node name="71" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 943 )
+material/0 = SubResource( 944 )
+
+[node name="72" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 945 )
+material/0 = SubResource( 946 )
+
+[node name="73" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 947 )
+material/0 = SubResource( 948 )
+
+[node name="74" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 949 )
+material/0 = SubResource( 950 )
+
+[node name="75" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 951 )
+material/0 = SubResource( 952 )
+
+[node name="76" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 953 )
+material/0 = SubResource( 954 )
+
+[node name="77" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 955 )
+material/0 = SubResource( 956 )
+
+[node name="78" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 957 )
+material/0 = SubResource( 958 )
+
+[node name="79" type="MeshInstance" parent="Sphere2"]
+mesh = SubResource( 959 )
+material/0 = SubResource( 960 )
+
 [node name="Sphere" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -67.9771, -24.3804, 51.6966 )
 DENSITY = 1
 
 [node name="0" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 1 )
-material/0 = SubResource( 2 )
+mesh = SubResource( 641 )
+material/0 = SubResource( 642 )
 
 [node name="1" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 3 )
-material/0 = SubResource( 4 )
+mesh = SubResource( 643 )
+material/0 = SubResource( 644 )
 
 [node name="2" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 5 )
-material/0 = SubResource( 6 )
+mesh = SubResource( 645 )
+material/0 = SubResource( 646 )
 
 [node name="3" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 7 )
-material/0 = SubResource( 8 )
+mesh = SubResource( 647 )
+material/0 = SubResource( 648 )
 
 [node name="4" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 9 )
-material/0 = SubResource( 10 )
+mesh = SubResource( 649 )
+material/0 = SubResource( 650 )
 
 [node name="5" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 11 )
-material/0 = SubResource( 12 )
+mesh = SubResource( 651 )
+material/0 = SubResource( 652 )
 
 [node name="6" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 13 )
-material/0 = SubResource( 14 )
+mesh = SubResource( 653 )
+material/0 = SubResource( 654 )
 
 [node name="7" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 15 )
-material/0 = SubResource( 16 )
+mesh = SubResource( 655 )
+material/0 = SubResource( 656 )
 
 [node name="8" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 17 )
-material/0 = SubResource( 18 )
+mesh = SubResource( 657 )
+material/0 = SubResource( 658 )
 
 [node name="9" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 19 )
-material/0 = SubResource( 20 )
+mesh = SubResource( 659 )
+material/0 = SubResource( 660 )
 
 [node name="10" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 21 )
-material/0 = SubResource( 22 )
+mesh = SubResource( 661 )
+material/0 = SubResource( 662 )
 
 [node name="11" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 23 )
-material/0 = SubResource( 24 )
+mesh = SubResource( 663 )
+material/0 = SubResource( 664 )
 
 [node name="12" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 25 )
-material/0 = SubResource( 26 )
+mesh = SubResource( 665 )
+material/0 = SubResource( 666 )
 
 [node name="13" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 27 )
-material/0 = SubResource( 28 )
+mesh = SubResource( 667 )
+material/0 = SubResource( 668 )
 
 [node name="14" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 29 )
-material/0 = SubResource( 30 )
+mesh = SubResource( 669 )
+material/0 = SubResource( 670 )
 
 [node name="15" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 31 )
-material/0 = SubResource( 32 )
+mesh = SubResource( 671 )
+material/0 = SubResource( 672 )
 
 [node name="16" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 33 )
-material/0 = SubResource( 34 )
+mesh = SubResource( 673 )
+material/0 = SubResource( 674 )
 
 [node name="17" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 35 )
-material/0 = SubResource( 36 )
+mesh = SubResource( 675 )
+material/0 = SubResource( 676 )
 
 [node name="18" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 37 )
-material/0 = SubResource( 38 )
+mesh = SubResource( 677 )
+material/0 = SubResource( 678 )
 
 [node name="19" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 39 )
-material/0 = SubResource( 40 )
+mesh = SubResource( 679 )
+material/0 = SubResource( 680 )
 
 [node name="20" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 41 )
-material/0 = SubResource( 42 )
+mesh = SubResource( 681 )
+material/0 = SubResource( 682 )
 
 [node name="21" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 43 )
-material/0 = SubResource( 44 )
+mesh = SubResource( 683 )
+material/0 = SubResource( 684 )
 
 [node name="22" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 45 )
-material/0 = SubResource( 46 )
+mesh = SubResource( 685 )
+material/0 = SubResource( 686 )
 
 [node name="23" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 47 )
-material/0 = SubResource( 48 )
+mesh = SubResource( 687 )
+material/0 = SubResource( 688 )
 
 [node name="24" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 49 )
-material/0 = SubResource( 50 )
+mesh = SubResource( 689 )
+material/0 = SubResource( 690 )
 
 [node name="25" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 51 )
-material/0 = SubResource( 52 )
+mesh = SubResource( 691 )
+material/0 = SubResource( 692 )
 
 [node name="26" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 53 )
-material/0 = SubResource( 54 )
+mesh = SubResource( 693 )
+material/0 = SubResource( 694 )
 
 [node name="27" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 55 )
-material/0 = SubResource( 56 )
+mesh = SubResource( 695 )
+material/0 = SubResource( 696 )
 
 [node name="28" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 57 )
-material/0 = SubResource( 58 )
+mesh = SubResource( 697 )
+material/0 = SubResource( 698 )
 
 [node name="29" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 59 )
-material/0 = SubResource( 60 )
+mesh = SubResource( 699 )
+material/0 = SubResource( 700 )
 
 [node name="30" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 61 )
-material/0 = SubResource( 62 )
+mesh = SubResource( 701 )
+material/0 = SubResource( 702 )
 
 [node name="31" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 63 )
-material/0 = SubResource( 64 )
+mesh = SubResource( 703 )
+material/0 = SubResource( 704 )
 
 [node name="32" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 65 )
-material/0 = SubResource( 66 )
+mesh = SubResource( 705 )
+material/0 = SubResource( 706 )
 
 [node name="33" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 67 )
-material/0 = SubResource( 68 )
+mesh = SubResource( 707 )
+material/0 = SubResource( 708 )
 
 [node name="34" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 69 )
-material/0 = SubResource( 70 )
+mesh = SubResource( 709 )
+material/0 = SubResource( 710 )
 
 [node name="35" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 71 )
-material/0 = SubResource( 72 )
+mesh = SubResource( 711 )
+material/0 = SubResource( 712 )
 
 [node name="36" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 73 )
-material/0 = SubResource( 74 )
+mesh = SubResource( 713 )
+material/0 = SubResource( 714 )
 
 [node name="37" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 75 )
-material/0 = SubResource( 76 )
+mesh = SubResource( 715 )
+material/0 = SubResource( 716 )
 
 [node name="38" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 77 )
-material/0 = SubResource( 78 )
+mesh = SubResource( 717 )
+material/0 = SubResource( 718 )
 
 [node name="39" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 79 )
-material/0 = SubResource( 80 )
+mesh = SubResource( 719 )
+material/0 = SubResource( 720 )
 
 [node name="40" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 81 )
-material/0 = SubResource( 82 )
+mesh = SubResource( 721 )
+material/0 = SubResource( 722 )
 
 [node name="41" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 83 )
-material/0 = SubResource( 84 )
+mesh = SubResource( 723 )
+material/0 = SubResource( 724 )
 
 [node name="42" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 85 )
-material/0 = SubResource( 86 )
+mesh = SubResource( 725 )
+material/0 = SubResource( 726 )
 
 [node name="43" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 87 )
-material/0 = SubResource( 88 )
+mesh = SubResource( 727 )
+material/0 = SubResource( 728 )
 
 [node name="44" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 89 )
-material/0 = SubResource( 90 )
+mesh = SubResource( 729 )
+material/0 = SubResource( 730 )
 
 [node name="45" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 91 )
-material/0 = SubResource( 92 )
+mesh = SubResource( 731 )
+material/0 = SubResource( 732 )
 
 [node name="46" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 93 )
-material/0 = SubResource( 94 )
+mesh = SubResource( 733 )
+material/0 = SubResource( 734 )
 
 [node name="47" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 95 )
-material/0 = SubResource( 96 )
+mesh = SubResource( 735 )
+material/0 = SubResource( 736 )
 
 [node name="48" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 97 )
-material/0 = SubResource( 98 )
+mesh = SubResource( 737 )
+material/0 = SubResource( 738 )
 
 [node name="49" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 99 )
-material/0 = SubResource( 100 )
+mesh = SubResource( 739 )
+material/0 = SubResource( 740 )
 
 [node name="50" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 101 )
-material/0 = SubResource( 102 )
+mesh = SubResource( 741 )
+material/0 = SubResource( 742 )
 
 [node name="51" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 103 )
-material/0 = SubResource( 104 )
+mesh = SubResource( 743 )
+material/0 = SubResource( 744 )
 
 [node name="52" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 105 )
-material/0 = SubResource( 106 )
+mesh = SubResource( 745 )
+material/0 = SubResource( 746 )
 
 [node name="53" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 107 )
-material/0 = SubResource( 108 )
+mesh = SubResource( 747 )
+material/0 = SubResource( 748 )
 
 [node name="54" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 109 )
-material/0 = SubResource( 110 )
+mesh = SubResource( 749 )
+material/0 = SubResource( 750 )
 
 [node name="55" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 111 )
-material/0 = SubResource( 112 )
+mesh = SubResource( 751 )
+material/0 = SubResource( 752 )
 
 [node name="56" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 113 )
-material/0 = SubResource( 114 )
+mesh = SubResource( 753 )
+material/0 = SubResource( 754 )
 
 [node name="57" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 115 )
-material/0 = SubResource( 116 )
+mesh = SubResource( 755 )
+material/0 = SubResource( 756 )
 
 [node name="58" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 117 )
-material/0 = SubResource( 118 )
+mesh = SubResource( 757 )
+material/0 = SubResource( 758 )
 
 [node name="59" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 119 )
-material/0 = SubResource( 120 )
+mesh = SubResource( 759 )
+material/0 = SubResource( 760 )
 
 [node name="60" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 121 )
-material/0 = SubResource( 122 )
+mesh = SubResource( 761 )
+material/0 = SubResource( 762 )
 
 [node name="61" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 123 )
-material/0 = SubResource( 124 )
+mesh = SubResource( 763 )
+material/0 = SubResource( 764 )
 
 [node name="62" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 125 )
-material/0 = SubResource( 126 )
+mesh = SubResource( 765 )
+material/0 = SubResource( 766 )
 
 [node name="63" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 127 )
-material/0 = SubResource( 128 )
+mesh = SubResource( 767 )
+material/0 = SubResource( 768 )
 
 [node name="64" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 129 )
-material/0 = SubResource( 130 )
+mesh = SubResource( 769 )
+material/0 = SubResource( 770 )
 
 [node name="65" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 131 )
-material/0 = SubResource( 132 )
+mesh = SubResource( 771 )
+material/0 = SubResource( 772 )
 
 [node name="66" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 133 )
-material/0 = SubResource( 134 )
+mesh = SubResource( 773 )
+material/0 = SubResource( 774 )
 
 [node name="67" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 135 )
-material/0 = SubResource( 136 )
+mesh = SubResource( 775 )
+material/0 = SubResource( 776 )
 
 [node name="68" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 137 )
-material/0 = SubResource( 138 )
+mesh = SubResource( 777 )
+material/0 = SubResource( 778 )
 
 [node name="69" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 139 )
-material/0 = SubResource( 140 )
+mesh = SubResource( 779 )
+material/0 = SubResource( 780 )
 
 [node name="70" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 141 )
-material/0 = SubResource( 142 )
+mesh = SubResource( 781 )
+material/0 = SubResource( 782 )
 
 [node name="71" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 143 )
-material/0 = SubResource( 144 )
+mesh = SubResource( 783 )
+material/0 = SubResource( 784 )
 
 [node name="72" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 145 )
-material/0 = SubResource( 146 )
+mesh = SubResource( 785 )
+material/0 = SubResource( 786 )
 
 [node name="73" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 147 )
-material/0 = SubResource( 148 )
+mesh = SubResource( 787 )
+material/0 = SubResource( 788 )
 
 [node name="74" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 149 )
-material/0 = SubResource( 150 )
+mesh = SubResource( 789 )
+material/0 = SubResource( 790 )
 
 [node name="75" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 151 )
-material/0 = SubResource( 152 )
+mesh = SubResource( 791 )
+material/0 = SubResource( 792 )
 
 [node name="76" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 153 )
-material/0 = SubResource( 154 )
+mesh = SubResource( 793 )
+material/0 = SubResource( 794 )
 
 [node name="77" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 155 )
-material/0 = SubResource( 156 )
+mesh = SubResource( 795 )
+material/0 = SubResource( 796 )
 
 [node name="78" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 157 )
-material/0 = SubResource( 158 )
+mesh = SubResource( 797 )
+material/0 = SubResource( 798 )
 
 [node name="79" type="MeshInstance" parent="Sphere"]
-mesh = SubResource( 159 )
-material/0 = SubResource( 160 )
+mesh = SubResource( 799 )
+material/0 = SubResource( 800 )
+
+[node name="Sphere3" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -70.8053, -56.0496, 16.2596 )
+DENSITY = 1
+TECTONIC_PLATES_N = 4
+
+[node name="0" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 961 )
+material/0 = SubResource( 962 )
+
+[node name="1" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 963 )
+material/0 = SubResource( 964 )
+
+[node name="2" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 965 )
+material/0 = SubResource( 966 )
+
+[node name="3" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 967 )
+material/0 = SubResource( 968 )
+
+[node name="4" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 969 )
+material/0 = SubResource( 970 )
+
+[node name="5" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 971 )
+material/0 = SubResource( 972 )
+
+[node name="6" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 973 )
+material/0 = SubResource( 974 )
+
+[node name="7" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 975 )
+material/0 = SubResource( 976 )
+
+[node name="8" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 977 )
+material/0 = SubResource( 978 )
+
+[node name="9" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 979 )
+material/0 = SubResource( 980 )
+
+[node name="10" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 981 )
+material/0 = SubResource( 982 )
+
+[node name="11" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 983 )
+material/0 = SubResource( 984 )
+
+[node name="12" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 985 )
+material/0 = SubResource( 986 )
+
+[node name="13" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 987 )
+material/0 = SubResource( 988 )
+
+[node name="14" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 989 )
+material/0 = SubResource( 990 )
+
+[node name="15" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 991 )
+material/0 = SubResource( 992 )
+
+[node name="16" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 993 )
+material/0 = SubResource( 994 )
+
+[node name="17" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 995 )
+material/0 = SubResource( 996 )
+
+[node name="18" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 997 )
+material/0 = SubResource( 998 )
+
+[node name="19" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 999 )
+material/0 = SubResource( 1000 )
+
+[node name="20" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1001 )
+material/0 = SubResource( 1002 )
+
+[node name="21" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1003 )
+material/0 = SubResource( 1004 )
+
+[node name="22" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1005 )
+material/0 = SubResource( 1006 )
+
+[node name="23" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1007 )
+material/0 = SubResource( 1008 )
+
+[node name="24" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1009 )
+material/0 = SubResource( 1010 )
+
+[node name="25" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1011 )
+material/0 = SubResource( 1012 )
+
+[node name="26" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1013 )
+material/0 = SubResource( 1014 )
+
+[node name="27" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1015 )
+material/0 = SubResource( 1016 )
+
+[node name="28" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1017 )
+material/0 = SubResource( 1018 )
+
+[node name="29" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1019 )
+material/0 = SubResource( 1020 )
+
+[node name="30" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1021 )
+material/0 = SubResource( 1022 )
+
+[node name="31" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1023 )
+material/0 = SubResource( 1024 )
+
+[node name="32" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1025 )
+material/0 = SubResource( 1026 )
+
+[node name="33" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1027 )
+material/0 = SubResource( 1028 )
+
+[node name="34" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1029 )
+material/0 = SubResource( 1030 )
+
+[node name="35" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1031 )
+material/0 = SubResource( 1032 )
+
+[node name="36" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1033 )
+material/0 = SubResource( 1034 )
+
+[node name="37" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1035 )
+material/0 = SubResource( 1036 )
+
+[node name="38" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1037 )
+material/0 = SubResource( 1038 )
+
+[node name="39" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1039 )
+material/0 = SubResource( 1040 )
+
+[node name="40" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1041 )
+material/0 = SubResource( 1042 )
+
+[node name="41" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1043 )
+material/0 = SubResource( 1044 )
+
+[node name="42" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1045 )
+material/0 = SubResource( 1046 )
+
+[node name="43" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1047 )
+material/0 = SubResource( 1048 )
+
+[node name="44" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1049 )
+material/0 = SubResource( 1050 )
+
+[node name="45" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1051 )
+material/0 = SubResource( 1052 )
+
+[node name="46" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1053 )
+material/0 = SubResource( 1054 )
+
+[node name="47" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1055 )
+material/0 = SubResource( 1056 )
+
+[node name="48" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1057 )
+material/0 = SubResource( 1058 )
+
+[node name="49" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1059 )
+material/0 = SubResource( 1060 )
+
+[node name="50" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1061 )
+material/0 = SubResource( 1062 )
+
+[node name="51" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1063 )
+material/0 = SubResource( 1064 )
+
+[node name="52" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1065 )
+material/0 = SubResource( 1066 )
+
+[node name="53" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1067 )
+material/0 = SubResource( 1068 )
+
+[node name="54" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1069 )
+material/0 = SubResource( 1070 )
+
+[node name="55" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1071 )
+material/0 = SubResource( 1072 )
+
+[node name="56" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1073 )
+material/0 = SubResource( 1074 )
+
+[node name="57" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1075 )
+material/0 = SubResource( 1076 )
+
+[node name="58" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1077 )
+material/0 = SubResource( 1078 )
+
+[node name="59" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1079 )
+material/0 = SubResource( 1080 )
+
+[node name="60" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1081 )
+material/0 = SubResource( 1082 )
+
+[node name="61" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1083 )
+material/0 = SubResource( 1084 )
+
+[node name="62" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1085 )
+material/0 = SubResource( 1086 )
+
+[node name="63" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1087 )
+material/0 = SubResource( 1088 )
+
+[node name="64" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1089 )
+material/0 = SubResource( 1090 )
+
+[node name="65" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1091 )
+material/0 = SubResource( 1092 )
+
+[node name="66" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1093 )
+material/0 = SubResource( 1094 )
+
+[node name="67" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1095 )
+material/0 = SubResource( 1096 )
+
+[node name="68" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1097 )
+material/0 = SubResource( 1098 )
+
+[node name="69" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1099 )
+material/0 = SubResource( 1100 )
+
+[node name="70" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1101 )
+material/0 = SubResource( 1102 )
+
+[node name="71" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1103 )
+material/0 = SubResource( 1104 )
+
+[node name="72" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1105 )
+material/0 = SubResource( 1106 )
+
+[node name="73" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1107 )
+material/0 = SubResource( 1108 )
+
+[node name="74" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1109 )
+material/0 = SubResource( 1110 )
+
+[node name="75" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1111 )
+material/0 = SubResource( 1112 )
+
+[node name="76" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1113 )
+material/0 = SubResource( 1114 )
+
+[node name="77" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1115 )
+material/0 = SubResource( 1116 )
+
+[node name="78" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1117 )
+material/0 = SubResource( 1118 )
+
+[node name="79" type="MeshInstance" parent="Sphere3"]
+mesh = SubResource( 1119 )
+material/0 = SubResource( 1120 )

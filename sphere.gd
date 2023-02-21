@@ -15,35 +15,51 @@ var plates_colors: Array
 func set_radius(value):
 	var old_val = RADIUS
 	RADIUS = value
-	if old_val != value and get_child_count() != 0:
-		update_elements()
+	if old_val != value and get_tree() and get_child_count() != 0:
+		delete_elements()
+		update_plates_colors()
+		create_elements()
+		property_list_changed_notify()
 
 
 func set_density(value):
 	var old_val = DENSITY
 	DENSITY = value
-	if old_val != value and get_child_count() != 0:
-		update_elements()
+	if old_val != value and get_tree() and get_child_count() != 0:
+		delete_elements()
+		update_plates_colors()
+		create_elements()
+		property_list_changed_notify()
 
 
 func set_plates_n(value):
 	var old_val = TECTONIC_PLATES_N
 	TECTONIC_PLATES_N = value
-	if old_val != value and get_child_count() != 0:
-		plates_colors.clear()
-		set_plates_colors()
-		for triangle in triangles:
-			triangle.plate_index = Triangle.NO_PLATE_INDEX
-		create_tectonic_plates()
-		for n in get_children():
-			remove_child(n)
-		draw()
+	if old_val != value and get_tree() and get_child_count() != 0:
+		if not triangles:
+			delete_elements()
+			update_plates_colors()
+			create_elements()
+		else:
+			update_plates_colors()
+			update_plates()
 		property_list_changed_notify()
 
 
-func set_plates_colors():
+func update_plates_colors():
+	plates_colors.clear()
 	for i in range(TECTONIC_PLATES_N):
 		plates_colors.append(Color(randf(), randf(), randf()))
+
+
+func update_plates():
+	for triangle in triangles:
+		triangle.plate_index = Triangle.NO_PLATE_INDEX
+	create_tectonic_plates()
+	calculate_plates_movement_directions()
+	for n in get_children():
+		remove_child(n)
+	draw()
 
 
 func create_elements():
@@ -51,6 +67,7 @@ func create_elements():
 	for i in range(DENSITY):
 		subdivide_triangles()
 	create_tectonic_plates()
+	calculate_plates_movement_directions()
 	draw()
 
 
@@ -61,17 +78,9 @@ func delete_elements():
 		n.queue_free()
 
 
-func update_elements():
-	delete_elements()
-	plates_colors.clear()
-	set_plates_colors()
-	create_elements()
-	property_list_changed_notify()
-
-
 func _ready():
 	if get_child_count() == 0:
-		set_plates_colors()
+		update_plates_colors()
 		create_elements()
 
 
@@ -156,7 +165,6 @@ func choose_tectonics_plates_origins():
 	var triangle_indices = []
 	for i in range(triangles.size()):
 		triangle_indices.append(i)
-	var s = triangle_indices.size()
 	for i in range(TECTONIC_PLATES_N):
 		var index = randi() % triangle_indices.size()
 		roots.append(triangles[triangle_indices[index]])
@@ -187,3 +195,15 @@ func draw():
 		var triangle = triangles[i]
 		var color = plates_colors[triangle.plate_index]
 		triangle.draw(self, str(i), color)
+
+
+func calculate_plates_movement_directions():
+	var queue = []
+	var plate_cores = {}
+	for triangle in triangles:
+		if not triangle.plate_index in plate_cores:
+			var random_vector = Vector3(randf(), randf(), randf()).normalized()
+			triangle.movement_direction = random_vector.cross(triangle.normale())
+			plate_cores[triangle.plate_index] = triangle
+			
+	
