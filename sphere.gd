@@ -30,12 +30,23 @@ func set_plates_n(value):
 	var old_val = TECTONIC_PLATES_N
 	TECTONIC_PLATES_N = value
 	if old_val != value and get_child_count() != 0:
-		update_elements()
+		plates_colors.clear()
+		set_plates_colors()
+		for triangle in triangles:
+			triangle.plate_index = Triangle.NO_PLATE_INDEX
+		create_tectonic_plates()
+		for n in get_children():
+			remove_child(n)
+		draw()
+		property_list_changed_notify()
+
+
+func set_plates_colors():
+	for i in range(TECTONIC_PLATES_N):
+		plates_colors.append(Color(randf(), randf(), randf()))
 
 
 func create_elements():
-	for i in range(TECTONIC_PLATES_N):
-		plates_colors.append(Color(randf(), randf(), randf()))
 	generate_icosahedron()
 	for i in range(DENSITY):
 		subdivide_triangles()
@@ -45,7 +56,6 @@ func create_elements():
 
 func delete_elements():
 	triangles.clear()
-	plates_colors.clear()
 	for n in get_children():
 		remove_child(n)
 		n.queue_free()
@@ -53,12 +63,15 @@ func delete_elements():
 
 func update_elements():
 	delete_elements()
+	plates_colors.clear()
+	set_plates_colors()
 	create_elements()
 	property_list_changed_notify()
 
 
 func _ready():
 	if get_child_count() == 0:
+		set_plates_colors()
 		create_elements()
 
 
