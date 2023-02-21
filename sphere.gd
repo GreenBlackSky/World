@@ -39,7 +39,7 @@ func create_elements():
 	generate_icosahedron()
 	for i in range(DENSITY):
 		subdivide_triangles()
-	colorize()
+	create_tectonic_plates()
 	draw()
 
 
@@ -132,25 +132,27 @@ func choose_tectonics_plates_origins():
 	return roots
 
 
-func colorize():
+func create_tectonic_plates():
 	var queue = choose_tectonics_plates_origins()
 	for i in range(TECTONIC_PLATES_N):
-		queue[i].color = plates_colors[i]
+		queue[i].plate_index = i
 	
 	while queue:
 		var triangle = queue.pop_front()
 		var neighbours = triangle.find_neighbours(triangles)
-		if triangle.color == Color.black:
+		if triangle.plate_index == Triangle.NO_PLATE_INDEX:
 			for neighbour in neighbours:
-				if neighbour.color != Color.black:
-					triangle.color = neighbour.color
+				if neighbour.plate_index != Triangle.NO_PLATE_INDEX:
+					triangle.plate_index = neighbour.plate_index
 					break
 		
 		for neighbour in neighbours:
-			if neighbour.color == Color.black:
+			if neighbour.plate_index == Triangle.NO_PLATE_INDEX:
 				queue.push_back(neighbour)
 
 
 func draw():
 	for i in range(triangles.size()):
-		triangles[i].draw(self, str(i))
+		var triangle = triangles[i]
+		var color = plates_colors[triangle.plate_index]
+		triangle.draw(self, str(i), color)

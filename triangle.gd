@@ -5,10 +5,11 @@ class_name Triangle
 var vert1 : Vector3
 var vert2 : Vector3
 var vert3 : Vector3
-var color: Color
 var neighbours: Array
+var plate_index: int = -1
 
 const VECTOR_TOLERANCE: float = 0.001
+const NO_PLATE_INDEX = -1
 
 
 func _init(vertice1: Vector3, vertice2: Vector3, vertice3: Vector3):
@@ -31,8 +32,8 @@ func calc_surface_normal() -> Vector3:
 	return U.cross(V).normalized()
 
 
-func draw(parent: Spatial, name: String) -> void:
-	var surface_array= []
+func draw(parent: Spatial, name: String, color: Color) -> void:
+	var surface_array = []
 	surface_array.resize(Mesh.ARRAY_MAX)
 	var vertices = PoolVector3Array()
 	var indices = PoolIntArray()

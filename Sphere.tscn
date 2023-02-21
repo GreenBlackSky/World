@@ -16,7 +16,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=2]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=3]
 surfaces/0 = {
@@ -32,7 +32,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=4]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=5]
 surfaces/0 = {
@@ -48,7 +48,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=6]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=7]
 surfaces/0 = {
@@ -64,7 +64,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=8]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=9]
 surfaces/0 = {
@@ -80,7 +80,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=10]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=11]
 surfaces/0 = {
@@ -96,7 +96,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=12]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.282488, 0.514282, 0.370927, 1 )
 
 [sub_resource type="ArrayMesh" id=13]
 surfaces/0 = {
@@ -112,7 +112,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=14]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=15]
 surfaces/0 = {
@@ -128,7 +128,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=16]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=17]
 surfaces/0 = {
@@ -144,7 +144,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=18]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=19]
 surfaces/0 = {
@@ -160,7 +160,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=20]
-albedo_color = Color( 0.754542, 0.304429, 0.206765, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [sub_resource type="ArrayMesh" id=21]
 surfaces/0 = {
@@ -176,7 +176,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=22]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [sub_resource type="ArrayMesh" id=23]
 surfaces/0 = {
@@ -192,7 +192,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=24]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [sub_resource type="ArrayMesh" id=25]
 surfaces/0 = {
@@ -208,7 +208,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=26]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [sub_resource type="ArrayMesh" id=27]
 surfaces/0 = {
@@ -224,7 +224,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=28]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [sub_resource type="ArrayMesh" id=29]
 surfaces/0 = {
@@ -240,7 +240,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=30]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [sub_resource type="ArrayMesh" id=31]
 surfaces/0 = {
@@ -256,7 +256,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=32]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.282488, 0.514282, 0.370927, 1 )
 
 [sub_resource type="ArrayMesh" id=33]
 surfaces/0 = {
@@ -272,7 +272,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=34]
-albedo_color = Color( 0.556551, 0.582721, 0.940009, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=35]
 surfaces/0 = {
@@ -288,7 +288,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=36]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.911881, 0.692152, 0.947903, 1 )
 
 [sub_resource type="ArrayMesh" id=37]
 surfaces/0 = {
@@ -304,7 +304,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=38]
-albedo_color = Color( 0.277581, 0.224176, 0.0689892, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [sub_resource type="ArrayMesh" id=39]
 surfaces/0 = {
@@ -320,7 +320,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=40]
-albedo_color = Color( 0.754542, 0.304429, 0.206765, 1 )
+albedo_color = Color( 0.943383, 0.357126, 0.0327811, 1 )
 
 [node name="Sphere" type="Spatial"]
 script = ExtResource( 1 )
