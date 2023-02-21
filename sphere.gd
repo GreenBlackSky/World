@@ -4,10 +4,12 @@ extends Spatial
 
 class_name Sphere
 
-var triangles: Array
 export(float) var RADIUS = 1.0 setget set_radius
 export(int, 0, 5) var DENSITY = 0 setget set_density
-export(int, 1, 20) var COLORS_N = 3 setget set_colors_n
+export(int, 1, 20) var TECTONIC_PLATES_N = 3 setget set_plates_n
+
+var triangles: Array
+var plates_colors: Array
 
 
 func set_radius(value):
@@ -24,14 +26,26 @@ func set_density(value):
 		update_elements()
 
 
-func set_colors_n(value):
-	var old_val = COLORS_N
-	COLORS_N = value
+func set_plates_n(value):
+	var old_val = TECTONIC_PLATES_N
+	TECTONIC_PLATES_N = value
 	if old_val != value and get_child_count() != 0:
 		update_elements()
 
 
+func create_elements():
+	for i in range(TECTONIC_PLATES_N):
+		plates_colors.append(Color(randf(), randf(), randf()))
+	generate_icosahedron()
+	for i in range(DENSITY):
+		subdivide_triangles()
+	colorize()
+	draw()
+
+
 func delete_elements():
+	triangles.clear()
+	plates_colors.clear()
 	for n in get_children():
 		remove_child(n)
 		n.queue_free()
@@ -41,14 +55,6 @@ func update_elements():
 	delete_elements()
 	create_elements()
 	property_list_changed_notify()
-
-
-func create_elements():
-	generate_icosahedron()
-	for i in range(DENSITY):
-		subdivide_triangles()
-	colorize()
-	draw()
 
 
 func _ready():
@@ -114,12 +120,22 @@ func subdivide_triangles():
 	triangles = more_triangles
 
 
+func choose_tectonics_plates_origins():
+	var roots = []
+	var triangle_indices = []
+	for i in range(triangles.size()):
+		triangle_indices.append(i)
+	for i in range(TECTONIC_PLATES_N):
+		var index = randi() % triangle_indices.size()
+		roots.append(triangles[triangle_indices[index]])
+		triangle_indices.remove(index)
+	return roots
+
+
 func colorize():
-	var queue = []
-	for i in range(COLORS_N):
-		var index = randi() % triangles.size()
-		triangles[index].color = Color(randf(), randf(), randf())
-		queue.append(triangles[index])
+	var queue = choose_tectonics_plates_origins()
+	for i in range(TECTONIC_PLATES_N):
+		queue[i].color = plates_colors[i]
 	
 	while queue:
 		var triangle = queue.pop_front()
