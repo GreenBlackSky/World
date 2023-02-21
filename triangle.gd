@@ -26,6 +26,19 @@ func vertices() -> Array:
 	return [self.vert1, self.vert2, self.vert3]
 
 
+func rounded_vertices() -> Array:
+	var ret  = []
+	for vert in vertices():
+		ret.append(
+			Vector3(
+				stepify(vert.x, 0.001),
+				stepify(vert.y, 0.001),
+				stepify(vert.z, 0.001)
+			)
+		)
+	return ret
+
+
 func calc_surface_normal() -> Vector3:
 	var U = vert2 - vert1
 	var V = vert3 - vert1
@@ -74,21 +87,22 @@ func subdivide() -> Array:
 		get_script().new(vert6, vert5, vert3), 
 		get_script().new(vert5, vert6, vert4)
 	]
-#
 
-func find_neighbours(triangles: Array) -> Array:
-	if neighbours:
-		return neighbours
 
-	for triangle in triangles:
-		var count = 0
-		for v in vertices():
-			for vt in triangle.vertices():
-				if are_vectors_similar(v, vt):
-					count+= 1
-		if count == 2:
-			neighbours.append(triangle)
-	return neighbours
+func is_neighbour(partner):
+	var count = 0
+	for v in vertices():
+		for vt in partner.vertices():
+			if are_vectors_similar(v, vt):
+				count+= 1
+	if count == 2:
+		return true
+	return false
+
+
+func add_neghbour(partner):
+	if not neighbours.has(partner):
+		neighbours.append(partner)
 
 
 func are_vectors_similar(vec1: Vector3, vec2: Vector3) -> bool:

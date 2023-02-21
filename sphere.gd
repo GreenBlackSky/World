@@ -122,6 +122,7 @@ func generate_icosahedron():
 			vertices[indices[2]] * RADIUS
 		)
 		triangles.append(triangle)
+	connect_triangles()
 
 
 func subdivide_triangles():
@@ -131,6 +132,23 @@ func subdivide_triangles():
 		for child in children:
 			more_triangles.append(child)
 	triangles = more_triangles
+	connect_triangles()
+
+
+func connect_triangles():
+	var triangles_by_verts = {}
+	for triangle in triangles:
+		for vert in triangle.rounded_vertices():
+			if not triangles_by_verts.has(vert):
+				triangles_by_verts[vert] = []
+			triangles_by_verts[vert].append(triangle)
+	
+	for triangle in triangles:
+		for vert in triangle.rounded_vertices():
+			for potential_neighbour in triangles_by_verts[vert]:
+				if triangle.is_neighbour(potential_neighbour):
+					potential_neighbour.add_neghbour(triangle)
+					triangle.add_neghbour(potential_neighbour)
 
 
 func choose_tectonics_plates_origins():
@@ -138,6 +156,7 @@ func choose_tectonics_plates_origins():
 	var triangle_indices = []
 	for i in range(triangles.size()):
 		triangle_indices.append(i)
+	var s = triangle_indices.size()
 	for i in range(TECTONIC_PLATES_N):
 		var index = randi() % triangle_indices.size()
 		roots.append(triangles[triangle_indices[index]])
@@ -152,14 +171,13 @@ func create_tectonic_plates():
 	
 	while queue:
 		var triangle = queue.pop_front()
-		var neighbours = triangle.find_neighbours(triangles)
 		if triangle.plate_index == Triangle.NO_PLATE_INDEX:
-			for neighbour in neighbours:
+			for neighbour in triangle.neighbours:
 				if neighbour.plate_index != Triangle.NO_PLATE_INDEX:
 					triangle.plate_index = neighbour.plate_index
 					break
 		
-		for neighbour in neighbours:
+		for neighbour in triangle.neighbours:
 			if neighbour.plate_index == Triangle.NO_PLATE_INDEX:
 				queue.push_back(neighbour)
 
