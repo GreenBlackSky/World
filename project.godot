@@ -9,6 +9,16 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "PlateTriangle",
+"class": "DirectedTriangle",
+"language": "GDScript",
+"path": "res://triangle_directed.gd"
+}, {
+"base": "Triangle",
+"class": "PlateTriangle",
+"language": "GDScript",
+"path": "res://triangle_plated.gd"
+}, {
 "base": "Spatial",
 "class": "Sphere",
 "language": "GDScript",
@@ -20,6 +30,8 @@ _global_script_classes=[ {
 "path": "res://triangle.gd"
 } ]
 _global_script_class_icons={
+"DirectedTriangle": "",
+"PlateTriangle": "",
 "Sphere": "",
 "Triangle": ""
 }

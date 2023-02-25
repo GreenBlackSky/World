@@ -53,22 +53,26 @@ func update_plates_colors():
 
 
 func update_plates():
-	for triangle in triangles:
-		triangle.plate_index = Triangle.NO_PLATE_INDEX
-	create_tectonic_plates()
-	calculate_plates_movement_directions()
 	for n in get_children():
 		remove_child(n)
 	draw()
+	for triangle in triangles:
+		triangle.plate_index = PlateTriangle.NO_PLATE_INDEX
+	create_tectonic_plates()
+	colorize()
+	calculate_plates_movement_directions()
+	draw_arrows()
 
 
 func create_elements():
 	generate_icosahedron()
 	for i in range(DENSITY):
 		subdivide_triangles()
-	create_tectonic_plates()
-	calculate_plates_movement_directions()
 	draw()
+	create_tectonic_plates()
+	colorize()
+	calculate_plates_movement_directions()
+	draw_arrows()
 
 
 func delete_elements():
@@ -125,7 +129,7 @@ func generate_icosahedron():
 	]
 	
 	for indices in triangle_indices:
-		var triangle = Triangle.new(
+		var triangle = DirectedTriangle.new(
 			vertices[indices[0]] * RADIUS,
 			vertices[indices[1]] * RADIUS,
 			vertices[indices[2]] * RADIUS
@@ -179,22 +183,15 @@ func create_tectonic_plates():
 	
 	while queue:
 		var triangle = queue.pop_front()
-		if triangle.plate_index == Triangle.NO_PLATE_INDEX:
+		if triangle.plate_index == PlateTriangle.NO_PLATE_INDEX:
 			for neighbour in triangle.neighbours:
-				if neighbour.plate_index != Triangle.NO_PLATE_INDEX:
+				if neighbour.plate_index != PlateTriangle.NO_PLATE_INDEX:
 					triangle.plate_index = neighbour.plate_index
 					break
 		
 		for neighbour in triangle.neighbours:
-			if neighbour.plate_index == Triangle.NO_PLATE_INDEX:
+			if neighbour.plate_index == PlateTriangle.NO_PLATE_INDEX:
 				queue.push_back(neighbour)
-
-
-func draw():
-	for i in range(triangles.size()):
-		var triangle = triangles[i]
-		var color = plates_colors[triangle.plate_index]
-		triangle.draw(self, str(i), color)
 
 
 func calculate_plates_movement_directions():
@@ -203,7 +200,24 @@ func calculate_plates_movement_directions():
 	for triangle in triangles:
 		if not triangle.plate_index in plate_cores:
 			var random_vector = Vector3(randf(), randf(), randf()).normalized()
-			triangle.movement_direction = random_vector.cross(triangle.normale())
+			triangle.movement_direction = random_vector.cross(triangle.normale)
 			plate_cores[triangle.plate_index] = triangle
 			
 	
+
+
+func draw():
+	for i in range(triangles.size()):
+		var triangle = triangles[i]
+		triangle.draw(self, str(i))
+
+
+func colorize():
+	for triangle in triangles:
+		var color = plates_colors[triangle.plate_index]
+		triangle.colorize(color)
+
+
+func draw_arrows():
+	for triangle in triangles:
+		triangle.draw_arrow()

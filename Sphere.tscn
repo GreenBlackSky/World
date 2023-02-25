@@ -1,6 +1,7 @@
-[gd_scene load_steps=42 format=2]
+[gd_scene load_steps=43 format=2]
 
 [ext_resource path="res://sphere.gd" type="Script" id=1]
+[ext_resource path="res://arrow.png" type="Texture" id=2]
 
 [sub_resource type="ArrayMesh" id=1]
 surfaces/0 = {
@@ -16,7 +17,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=2]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.96881, 0.249074, 0.300631, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=3]
 surfaces/0 = {
@@ -32,7 +36,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=4]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.96881, 0.249074, 0.300631, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=5]
 surfaces/0 = {
@@ -48,7 +55,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=6]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=7]
 surfaces/0 = {
@@ -64,7 +74,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=8]
-albedo_color = Color( 0.456636, 0.237499, 0.459743, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=9]
 surfaces/0 = {
@@ -80,7 +93,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=10]
-albedo_color = Color( 0.456636, 0.237499, 0.459743, 1 )
+albedo_color = Color( 0.96881, 0.249074, 0.300631, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=11]
 surfaces/0 = {
@@ -96,7 +112,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=12]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.96881, 0.249074, 0.300631, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=13]
 surfaces/0 = {
@@ -112,7 +131,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=14]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.273353, 0.73683, 0.800927, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=15]
 surfaces/0 = {
@@ -128,7 +150,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=16]
-albedo_color = Color( 0.456636, 0.237499, 0.459743, 1 )
+albedo_color = Color( 0.96881, 0.249074, 0.300631, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=17]
 surfaces/0 = {
@@ -144,7 +169,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=18]
-albedo_color = Color( 0.456636, 0.237499, 0.459743, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=19]
 surfaces/0 = {
@@ -160,7 +188,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=20]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=21]
 surfaces/0 = {
@@ -176,7 +207,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=22]
-albedo_color = Color( 0.933373, 0.401744, 0.316541, 1 )
+albedo_color = Color( 0.273353, 0.73683, 0.800927, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=23]
 surfaces/0 = {
@@ -192,7 +226,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=24]
-albedo_color = Color( 0.933373, 0.401744, 0.316541, 1 )
+albedo_color = Color( 0.273353, 0.73683, 0.800927, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=25]
 surfaces/0 = {
@@ -208,7 +245,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=26]
-albedo_color = Color( 0.933373, 0.401744, 0.316541, 1 )
+albedo_color = Color( 0.273353, 0.73683, 0.800927, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=27]
 surfaces/0 = {
@@ -224,7 +264,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=28]
-albedo_color = Color( 0.933373, 0.401744, 0.316541, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=29]
 surfaces/0 = {
@@ -240,7 +283,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=30]
-albedo_color = Color( 0.933373, 0.401744, 0.316541, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=31]
 surfaces/0 = {
@@ -256,7 +302,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=32]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.273353, 0.73683, 0.800927, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=33]
 surfaces/0 = {
@@ -272,7 +321,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=34]
-albedo_color = Color( 0.456636, 0.237499, 0.459743, 1 )
+albedo_color = Color( 0.273353, 0.73683, 0.800927, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=35]
 surfaces/0 = {
@@ -288,7 +340,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=36]
-albedo_color = Color( 0.456636, 0.237499, 0.459743, 1 )
+albedo_color = Color( 0.96881, 0.249074, 0.300631, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=37]
 surfaces/0 = {
@@ -304,7 +359,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=38]
-albedo_color = Color( 0.456636, 0.237499, 0.459743, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [sub_resource type="ArrayMesh" id=39]
 surfaces/0 = {
@@ -320,7 +378,10 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=40]
-albedo_color = Color( 0.453108, 0.748043, 0.480898, 1 )
+albedo_color = Color( 0.607029, 0.746508, 0.0394976, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 5, 5, 5 )
+uv1_triplanar = true
 
 [node name="Sphere" type="Spatial"]
 script = ExtResource( 1 )

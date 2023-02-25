@@ -2,23 +2,24 @@ extends Node
 
 class_name Triangle
 
-var vert1 : Vector3
-var vert2 : Vector3
-var vert3 : Vector3
+var vert1: Vector3
+var vert2: Vector3
+var vert3: Vector3
+var normale: Vector3
 var neighbours: Array
-var plate_index: int = -1
-var movement_direction: Vector3
 
+var mesh_instance
 
 const VECTOR_TOLERANCE: float = 0.001
-const NO_PLATE_INDEX = -1
 
 
 func _init(vertice1: Vector3, vertice2: Vector3, vertice3: Vector3):
 	vert1 = vertice1
 	vert2 = vertice2
 	vert3 = vertice3
-
+	var U = vert2 - vert1
+	var V = vert3 - vert1
+	normale = U.cross(V).normalized()
 
 func _to_string() -> String:
 	return "Triangle obgect(%s, %s, %s)" % [str(vert1), str(vert2), str(vert3)]
@@ -41,42 +42,6 @@ func rounded_vertices() -> Array:
 	return ret
 
 
-func normale() -> Vector3:
-	var U = vert2 - vert1
-	var V = vert3 - vert1
-	return U.cross(V).normalized()
-
-
-func draw(parent: Spatial, name: String, color: Color) -> void:
-	var surface_array = []
-	surface_array.resize(Mesh.ARRAY_MAX)
-	var vertices = PoolVector3Array()
-	var indices = PoolIntArray()
-
-	for vertice in self.vertices():
-		vertices.append(vertice)
-
-	for i in range(2, -1, -1):
-		indices.append(i)
-
-	surface_array[Mesh.ARRAY_VERTEX] = vertices
-	surface_array[Mesh.ARRAY_INDEX] = indices
-
-	var material = SpatialMaterial.new()
-	material.albedo_color = color
-	material.albedo_texture = load("res://arrow.png")
-
-	var mesh = Mesh.new()
-	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, surface_array)
-
-	var mesh_instance = MeshInstance.new()
-	mesh_instance.mesh = mesh
-	mesh_instance.name = name
-	mesh_instance.set_surface_material(0, material)
-	parent.add_child(mesh_instance)
-	mesh_instance.set_owner(parent.get_tree().edited_scene_root)
-
-
 func subdivide() -> Array:
 	var radius: float = vert1.length()
 
@@ -92,7 +57,7 @@ func subdivide() -> Array:
 	]
 
 
-func is_neighbour(partner):
+func is_neighbour(partner) -> bool:
 	var count = 0
 	for v in vertices():
 		for vt in partner.vertices():
@@ -103,7 +68,7 @@ func is_neighbour(partner):
 	return false
 
 
-func add_neghbour(partner):
+func add_neghbour(partner) -> void:
 	if not neighbours.has(partner):
 		neighbours.append(partner)
 
@@ -112,3 +77,29 @@ func are_vectors_similar(vec1: Vector3, vec2: Vector3) -> bool:
 	var dot_product = vec1.dot(vec2)
 	var mag_product = vec1.length() * vec2.length()
 	return abs(dot_product - mag_product) < VECTOR_TOLERANCE
+
+
+func draw(parent: Spatial, name: String) -> void:
+	var surface_array = []
+	surface_array.resize(Mesh.ARRAY_MAX)
+	var vertices = PoolVector3Array()
+	var indices = PoolIntArray()
+
+	for vertice in self.vertices():
+		vertices.append(vertice)
+
+	for i in range(2, -1, -1):
+		indices.append(i)
+
+	surface_array[Mesh.ARRAY_VERTEX] = vertices
+	surface_array[Mesh.ARRAY_INDEX] = indices
+
+	var mesh = Mesh.new()
+	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, surface_array)
+	
+	mesh_instance = MeshInstance.new()
+	mesh_instance.mesh = mesh
+	mesh_instance.name = name
+
+	parent.add_child(mesh_instance)
+	mesh_instance.set_owner(parent.get_tree().edited_scene_root)
