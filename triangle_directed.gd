@@ -15,12 +15,21 @@ func draw_arrow():
 	var arrow = Sprite3D.new()
 	arrow.texture = load("res://arrow.png")
 	self.mesh_instance.add_child(arrow)
+	arrow.set_owner(self.mesh_instance.get_tree().edited_scene_root)
+	arrow.name = "Arrow"
 
-	var side_center = (self.vert2 + self.vert3)/2
-	var lenght = (self.vert1 - side_center).length()
-	arrow.scale = Vector3.ONE * 0.02 * lenght
-
-	var center = ((self.vert1 + side_center)/2)*1.01
-	var look_at_pos = center + movement_direction
-	arrow.look_at(look_at_pos, self.normale)
+	var center = (self.vert1 + self.vert2 + self.vert3)/3 * 1.01
 	arrow.transform.origin = center
+
+	var side = (self.vert1 - self.vert2).length()
+	arrow.scale = Vector3.ONE * side / 20
+
+	arrow.look_at(self.normale + mesh_instance.global_translation, Vector3.UP)
+#	arrow.rotate(self.normale, 90)
+	var pointer = CSGSphere.new()
+	pointer.radius = 0.05
+
+	self.mesh_instance.add_child(pointer)
+	pointer.set_owner(self.mesh_instance.get_tree().edited_scene_root)
+
+	pointer.translate(center + movement_direction)

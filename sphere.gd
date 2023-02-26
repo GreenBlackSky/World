@@ -200,16 +200,30 @@ func calculate_plates_movement_directions():
 	for triangle in triangles:
 		if not triangle.plate_index in plate_cores:
 			var random_vector = Vector3(randf(), randf(), randf()).normalized()
-			triangle.movement_direction = random_vector.cross(triangle.normale)
+			triangle.movement_direction = random_vector.cross(triangle.normale).normalized()
 			plate_cores[triangle.plate_index] = triangle
-			
+			queue.append(triangle)
+		if plate_cores.size() == TECTONIC_PLATES_N:
+			break
 	
+	while queue:
+		var triangle = queue.pop_front()
+		if triangle.movement_direction == Vector3.ZERO:
+			for neighbour in triangle.neighbours:
+				if neighbour.movement_direction != Vector3.ZERO:
+					var axis = triangle.normale.cross(neighbour.normale).normalized()
+					var angle = triangle.normale.angle_to(neighbour.normale)
+					triangle.movement_direction = neighbour.movement_direction.rotated(axis, angle)
+					break
+			
+		for neighbour in triangle.neighbours:
+			if neighbour.movement_direction == Vector3.ZERO:
+				queue.append(neighbour)
 
 
 func draw():
-	for i in range(triangles.size()):
-		var triangle = triangles[i]
-		triangle.draw(self, str(i))
+	for triangle in triangles:
+		triangle.draw(self)
 
 
 func colorize():

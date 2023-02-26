@@ -1,6 +1,7 @@
-[gd_scene load_steps=162 format=2]
+[gd_scene load_steps=163 format=2]
 
 [ext_resource path="res://Sphere.tscn" type="PackedScene" id=1]
+[ext_resource path="res://arrow.png" type="Texture" id=2]
 
 [sub_resource type="ArrayMesh" id=1]
 surfaces/0 = {
@@ -16,7 +17,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=2]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=3]
 surfaces/0 = {
@@ -32,7 +33,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=4]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=5]
 surfaces/0 = {
@@ -48,7 +49,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=6]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=7]
 surfaces/0 = {
@@ -64,7 +65,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=8]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=9]
 surfaces/0 = {
@@ -80,7 +81,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=10]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=11]
 surfaces/0 = {
@@ -96,7 +97,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=12]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=13]
 surfaces/0 = {
@@ -112,7 +113,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=14]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=15]
 surfaces/0 = {
@@ -128,7 +129,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=16]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=17]
 surfaces/0 = {
@@ -144,7 +145,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=18]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=19]
 surfaces/0 = {
@@ -160,7 +161,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=20]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=21]
 surfaces/0 = {
@@ -176,7 +177,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=22]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=23]
 surfaces/0 = {
@@ -192,7 +193,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=24]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=25]
 surfaces/0 = {
@@ -208,7 +209,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=26]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=27]
 surfaces/0 = {
@@ -224,7 +225,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=28]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=29]
 surfaces/0 = {
@@ -240,7 +241,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=30]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=31]
 surfaces/0 = {
@@ -256,7 +257,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=32]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=33]
 surfaces/0 = {
@@ -272,7 +273,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=34]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=35]
 surfaces/0 = {
@@ -288,7 +289,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=36]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=37]
 surfaces/0 = {
@@ -304,7 +305,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=38]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=39]
 surfaces/0 = {
@@ -320,7 +321,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=40]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=41]
 surfaces/0 = {
@@ -336,7 +337,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=42]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=43]
 surfaces/0 = {
@@ -352,7 +353,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=44]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=45]
 surfaces/0 = {
@@ -368,7 +369,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=46]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=47]
 surfaces/0 = {
@@ -384,7 +385,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=48]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=49]
 surfaces/0 = {
@@ -400,7 +401,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=50]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=51]
 surfaces/0 = {
@@ -416,7 +417,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=52]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=53]
 surfaces/0 = {
@@ -432,7 +433,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=54]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=55]
 surfaces/0 = {
@@ -448,7 +449,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=56]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=57]
 surfaces/0 = {
@@ -464,7 +465,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=58]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=59]
 surfaces/0 = {
@@ -480,7 +481,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=60]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=61]
 surfaces/0 = {
@@ -496,7 +497,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=62]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=63]
 surfaces/0 = {
@@ -512,7 +513,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=64]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=65]
 surfaces/0 = {
@@ -528,7 +529,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=66]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=67]
 surfaces/0 = {
@@ -544,7 +545,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=68]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=69]
 surfaces/0 = {
@@ -560,7 +561,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=70]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=71]
 surfaces/0 = {
@@ -576,7 +577,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=72]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=73]
 surfaces/0 = {
@@ -592,7 +593,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=74]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=75]
 surfaces/0 = {
@@ -608,7 +609,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=76]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=77]
 surfaces/0 = {
@@ -624,7 +625,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=78]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=79]
 surfaces/0 = {
@@ -640,7 +641,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=80]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=81]
 surfaces/0 = {
@@ -656,7 +657,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=82]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=83]
 surfaces/0 = {
@@ -672,7 +673,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=84]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=85]
 surfaces/0 = {
@@ -688,7 +689,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=86]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=87]
 surfaces/0 = {
@@ -704,7 +705,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=88]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=89]
 surfaces/0 = {
@@ -720,7 +721,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=90]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=91]
 surfaces/0 = {
@@ -736,7 +737,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=92]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=93]
 surfaces/0 = {
@@ -752,7 +753,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=94]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=95]
 surfaces/0 = {
@@ -768,7 +769,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=96]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=97]
 surfaces/0 = {
@@ -784,7 +785,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=98]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=99]
 surfaces/0 = {
@@ -800,7 +801,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=100]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=101]
 surfaces/0 = {
@@ -816,7 +817,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=102]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=103]
 surfaces/0 = {
@@ -832,7 +833,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=104]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=105]
 surfaces/0 = {
@@ -848,7 +849,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=106]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=107]
 surfaces/0 = {
@@ -864,7 +865,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=108]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=109]
 surfaces/0 = {
@@ -880,7 +881,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=110]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=111]
 surfaces/0 = {
@@ -896,7 +897,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=112]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=113]
 surfaces/0 = {
@@ -912,7 +913,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=114]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=115]
 surfaces/0 = {
@@ -928,7 +929,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=116]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=117]
 surfaces/0 = {
@@ -944,7 +945,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=118]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=119]
 surfaces/0 = {
@@ -960,7 +961,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=120]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=121]
 surfaces/0 = {
@@ -976,7 +977,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=122]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=123]
 surfaces/0 = {
@@ -992,7 +993,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=124]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=125]
 surfaces/0 = {
@@ -1008,7 +1009,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=126]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=127]
 surfaces/0 = {
@@ -1024,7 +1025,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=128]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=129]
 surfaces/0 = {
@@ -1040,7 +1041,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=130]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=131]
 surfaces/0 = {
@@ -1056,7 +1057,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=132]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=133]
 surfaces/0 = {
@@ -1072,7 +1073,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=134]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=135]
 surfaces/0 = {
@@ -1088,7 +1089,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=136]
-albedo_color = Color( 0.122094, 0.920589, 0.44931, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=137]
 surfaces/0 = {
@@ -1104,7 +1105,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=138]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=139]
 surfaces/0 = {
@@ -1120,7 +1121,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=140]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=141]
 surfaces/0 = {
@@ -1136,7 +1137,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=142]
-albedo_color = Color( 0.826652, 0.848742, 0.0115273, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=143]
 surfaces/0 = {
@@ -1152,7 +1153,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=144]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=145]
 surfaces/0 = {
@@ -1168,7 +1169,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=146]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=147]
 surfaces/0 = {
@@ -1184,7 +1185,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=148]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=149]
 surfaces/0 = {
@@ -1200,7 +1201,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=150]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.422361, 0.367297, 0.244661, 1 )
 
 [sub_resource type="ArrayMesh" id=151]
 surfaces/0 = {
@@ -1216,7 +1217,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=152]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=153]
 surfaces/0 = {
@@ -1232,7 +1233,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=154]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=155]
 surfaces/0 = {
@@ -1248,7 +1249,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=156]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.982028, 0.811819, 0.887319, 1 )
 
 [sub_resource type="ArrayMesh" id=157]
 surfaces/0 = {
@@ -1264,7 +1265,7 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=158]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [sub_resource type="ArrayMesh" id=159]
 surfaces/0 = {
@@ -1280,330 +1281,977 @@ surfaces/0 = {
 }
 
 [sub_resource type="SpatialMaterial" id=160]
-albedo_color = Color( 0.216537, 0.755049, 0.491349, 1 )
+albedo_color = Color( 0.629152, 0.82297, 0.875394, 1 )
 
 [node name="Spatial" type="Spatial"]
 
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.38389 )
+texture = ExtResource( 2 )
+
 [node name="Sphere" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.89298, -39.873, -23.4734 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.43416, 8.28097 )
 DENSITY = 1
 
-[node name="0" type="MeshInstance" parent="Sphere"]
+[node name="Triangle" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 1 )
 material/0 = SubResource( 2 )
 
-[node name="1" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle"]
+transform = Transform( 0.0206269, 0.0371374, -0.0299515, 0, 0.0326309, 0.0404596, 0.0477104, -0.0160558, 0.0129491, -1.05263, 1.383, 0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.47293, 0.773008, 1.18983 )
+radius = 0.05
+
+[node name="Triangle2" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 3 )
 material/0 = SubResource( 4 )
 
-[node name="2" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle2"]
+transform = Transform( 0.0309266, 0.0104076, -0.0404596, 0, 0.0503396, 0.0129491, 0.0417768, -0.0077046, 0.0299515, -1.383, 0.518077, 1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.95071, 0.404686, 1.86802 )
+radius = 0.05
+
+[node name="Triangle3" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 5 )
 material/0 = SubResource( 6 )
 
-[node name="3" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle3"]
+transform = Transform( 0.0559813, 0.0103242, -0.0146432, 0, 0.048039, 0.0338699, 0.0179168, -0.0322581, 0.0457528, -0.518077, 1.05263, 1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58473, 0.252009, 1.97845 )
+radius = 0.05
+
+[node name="Triangle4" type="MeshInstance" parent="Sphere"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.74014, 0, 0 )
 mesh = SubResource( 7 )
 material/0 = SubResource( 8 )
 
-[node name="4" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle4"]
+transform = Transform( 0.0415627, 0.0239962, -0.0339358, 0, 0.0479925, 0.0339358, 0.0415627, -0.0239962, 0.0339358, -1.03615, 1.03615, 1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle4"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61549, 0.653768, 1.75598 )
+radius = 0.05
+
+[node name="Triangle5" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 9 )
 material/0 = SubResource( 10 )
 
-[node name="5" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle5"]
+transform = Transform( 0.0221366, 0.0438479, -0.0170024, 0, 0.0187918, 0.0484626, 0.047029, -0.0206393, 0.00800305, -0.534554, 1.70319, 0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle5"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.714467, 0.887956, 0.870661 )
+radius = 0.05
+
+[node name="Triangle6" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 11 )
 material/0 = SubResource( 12 )
 
-[node name="6" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle6"]
+transform = Transform( 0.0519784, 0, 0, 0, 0.0355135, 0.0379545, 0, -0.0379545, 0.0355135, 0, 1.37282, 1.18512 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle6"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0492919, 0.458116, 1.58622 )
+radius = 0.05
+
+[node name="Triangle7" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 13 )
 material/0 = SubResource( 14 )
 
-[node name="7" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle7"]
+transform = Transform( 0.0250327, -0.0495844, 0.0192268, 0, 0.0212502, 0.0548028, -0.0531816, -0.0233395, 0.00905006, 0.534554, 1.70319, 0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle7"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.639483, 0.869053, 0.861669 )
+radius = 0.05
+
+[node name="Triangle8" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 15 )
 material/0 = SubResource( 16 )
 
-[node name="8" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle8"]
+transform = Transform( 0.0587785, 0, 0, 0, 0.0209735, 0.0549093, 0, -0.0549093, 0.0209735, 0, 1.67653, 0.640378 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle8"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0389255, 0.929516, 1.30404 )
+radius = 0.05
+
+[node name="Triangle9" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 17 )
 material/0 = SubResource( 18 )
 
-[node name="9" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle9"]
+transform = Transform( -0.0221365, 0.043848, -0.0170024, 0, 0.0187917, 0.0484626, 0.047029, 0.0206392, -0.00800302, -0.534554, 1.70319, -0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle9"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.672236, 0.739296, -0.0922701 )
+radius = 0.05
+
+[node name="Triangle10" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 19 )
 material/0 = SubResource( 20 )
 
-[node name="10" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle10"]
+transform = Transform( -0.0221365, -0.043848, 0.0170024, 0, 0.0187917, 0.0484626, -0.047029, 0.0206392, -0.00800302, 0.534554, 1.70319, -0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle10"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.598993, 0.72652, -0.115354 )
+radius = 0.05
+
+[node name="Triangle11" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 21 )
 material/0 = SubResource( 22 )
 
-[node name="11" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle11"]
+transform = Transform( -0.0587785, 3.75218e-09, -3.51086e-09, 0, 0.0401596, 0.04292, 5.13858e-09, 0.04292, -0.0401596, 0, 1.37282, -1.18512 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle11"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.127752, 0.409559, -1.42135 )
+radius = 0.05
+
+[node name="Triangle12" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 23 )
 material/0 = SubResource( 24 )
 
-[node name="12" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle12"]
+transform = Transform( -0.0587785, 4.80032e-09, -1.83356e-09, 0, 0.0209735, 0.0549093, 5.13858e-09, 0.0549093, -0.0209735, 0, 1.67653, -0.640378 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle12"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.127752, 0.687452, -0.566887 )
+radius = 0.05
+
+[node name="Triangle13" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 25 )
 material/0 = SubResource( 26 )
 
-[node name="13" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle13"]
+transform = Transform( -0.0206269, 0.0371374, -0.0299515, 0, 0.0326309, 0.0404596, 0.0477104, 0.0160559, -0.0129491, -1.05263, 1.383, -0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle13"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.52908, 0.506905, -0.444302 )
+radius = 0.05
+
+[node name="Triangle14" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 27 )
 material/0 = SubResource( 28 )
 
-[node name="14" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle14"]
+transform = Transform( -0.0495047, 0.00912982, -0.0129491, 0, 0.0424813, 0.0299515, 0.015844, 0.0285261, -0.0404596, -0.518077, 1.05263, -1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle14"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.558323, 0.153718, -1.81928 )
+radius = 0.05
+
+[node name="Triangle15" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 29 )
 material/0 = SubResource( 30 )
 
-[node name="15" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle15"]
+transform = Transform( -0.0349726, 0.0117692, -0.0457528, 0, 0.0569253, 0.0146432, 0.0472422, 0.00871257, -0.03387, -1.383, 0.518077, -1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle15"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.11497, -0.118821, -1.29467 )
+radius = 0.05
+
+[node name="Triangle16" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 31 )
 material/0 = SubResource( 32 )
 
-[node name="16" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle16"]
+transform = Transform( -0.0415627, 0.0239962, -0.0339358, 0, 0.0479925, 0.0339358, 0.0415627, 0.0239962, -0.0339358, -1.03615, 1.03615, -1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle16"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.59521, 0.20939, -1.0988 )
+radius = 0.05
+
+[node name="Triangle17" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 33 )
 material/0 = SubResource( 34 )
 
-[node name="17" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle17"]
+transform = Transform( -2.27205e-09, 0.0355135, -0.0379545, 0, 0.0379545, 0.0355135, 0.0519784, 1.55234e-09, -1.65904e-09, -1.37282, 1.18512, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle17"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.76724, 0.531025, 0.645446 )
+radius = 0.05
+
+[node name="Triangle18" type="MeshInstance" parent="Sphere"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.48418, 0, 0 )
 mesh = SubResource( 35 )
 material/0 = SubResource( 36 )
 
-[node name="18" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle18"]
+transform = Transform( -0.0172076, 0.00755172, -0.0484626, 0, 0.0513586, 0.00800299, 0.0490474, 0.00264941, -0.0170024, -1.70319, 0.320189, -0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle18"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.18182, -0.163506, 0.198221 )
+radius = 0.05
+
+[node name="Triangle19" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 37 )
 material/0 = SubResource( 38 )
 
-[node name="19" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle19"]
+transform = Transform( 0.0194588, 0.00853969, -0.0548028, 0, 0.0580776, 0.00905, 0.0554641, -0.00299603, 0.0192268, -1.70319, 0.320189, 0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle19"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.96276, 0.245032, 1.49735 )
+radius = 0.05
+
+[node name="Triangle20" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 39 )
 material/0 = SubResource( 40 )
 
-[node name="20" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle20"]
+transform = Transform( -2.56929e-09, 0.0209735, -0.0549093, 0, 0.0549093, 0.0209735, 0.0587785, 9.1678e-10, -2.40016e-09, -1.67653, 0.640378, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle20"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.25402, 0.140475, 0.645446 )
+radius = 0.05
+
+[node name="Triangle21" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 41 )
 material/0 = SubResource( 42 )
 
-[node name="21" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle21"]
+transform = Transform( 0.0206269, -0.0371374, 0.0299515, 0, 0.0326309, 0.0404596, -0.0477104, -0.0160558, 0.0129491, 1.05263, 1.383, 0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle21"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.40981, 0.727838, 1.18379 )
+radius = 0.05
+
+[node name="Triangle22" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 43 )
 material/0 = SubResource( 44 )
 
-[node name="22" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle22"]
+transform = Transform( 0.0495047, -0.0091298, 0.0129491, 0, 0.0424813, 0.0299515, -0.015844, -0.0285261, 0.0404596, 0.518077, 1.05263, 1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle22"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.678227, 0.278364, 1.99526 )
+radius = 0.05
+
+[node name="Triangle23" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 45 )
 material/0 = SubResource( 46 )
 
-[node name="23" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle23"]
+transform = Transform( 0.0349726, -0.0117692, 0.0457528, 0, 0.0569253, 0.0146432, -0.0472423, -0.00871256, 0.03387, 1.383, 0.518077, 1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle23"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.64211, -0.138988, 1.76054 )
+radius = 0.05
+
+[node name="Triangle24" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 47 )
 material/0 = SubResource( 48 )
 
-[node name="24" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle24"]
+transform = Transform( 0.0415627, -0.0239962, 0.0339358, 0, 0.0479925, 0.0339358, -0.0415627, -0.0239962, 0.0339358, 1.03615, 1.03615, 1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle24"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.16985, 0.22712, 1.60851 )
+radius = 0.05
+
+[node name="Triangle25" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 49 )
 material/0 = SubResource( 50 )
 
-[node name="25" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle25"]
+transform = Transform( 0.0512838, 0.00277022, -0.008003, 0, 0.0491189, 0.0170024, 0.00846889, -0.0167752, 0.0484626, -0.320189, 0.534554, 1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle25"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.518398, -0.00531423, 2.52127 )
+radius = 0.05
+
+[node name="Triangle26" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 51 )
 material/0 = SubResource( 52 )
 
-[node name="26" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle26"]
+transform = Transform( 0.0379545, 0, -0.0355135, 0, 0.0519784, 0, 0.0355135, 0, 0.0379545, -1.18512, 0, 1.37282 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle26"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.90862, 0.207231, 2.03131 )
+radius = 0.05
+
+[node name="Triangle27" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 53 )
 material/0 = SubResource( 54 )
 
-[node name="27" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle27"]
+transform = Transform( 0.0579931, -0.00313264, -0.00905001, 0, 0.055545, -0.0192268, 0.00957685, 0.0189699, 0.0548028, -0.320189, -0.534554, 1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle27"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.587344, -0.569625, 2.66621 )
+radius = 0.05
+
+[node name="Triangle28" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 55 )
 material/0 = SubResource( 56 )
 
-[node name="28" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle28"]
+transform = Transform( 0.0549093, 0, -0.0209735, 0, 0.0587785, 0, 0.0209735, 0, 0.0549093, -0.640378, 0, 1.67653 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle28"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.739495, -0.298461, 2.62579 )
+radius = 0.05
+
+[node name="Triangle29" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 57 )
 material/0 = SubResource( 58 )
 
-[node name="29" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle29"]
+transform = Transform( 0.0172076, -0.00755172, -0.0484626, 0, 0.0513586, -0.00800299, 0.0490474, 0.00264941, 0.0170024, -1.70319, -0.320189, 0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle29"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.04514, -0.739739, 1.15981 )
+radius = 0.05
+
+[node name="Triangle30" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 59 )
 material/0 = SubResource( 60 )
 
-[node name="30" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle30"]
+transform = Transform( -0.0172076, -0.00755172, -0.0484626, 0, 0.0513586, -0.00800299, 0.0490474, -0.00264941, -0.0170024, -1.70319, -0.320189, -0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle30"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.806748, -0.626337, -0.214148 )
+radius = 0.05
+
+[node name="Triangle31" type="MeshInstance" parent="Sphere"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.68799 )
 mesh = SubResource( 61 )
 material/0 = SubResource( 62 )
 
-[node name="31" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle31"]
+transform = Transform( -2.56929e-09, -0.0401596, -0.04292, 0, 0.04292, -0.0401596, 0.0587785, -1.75543e-09, -1.87609e-09, -1.37282, -1.18512, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle31"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.825326, -1.8628, 0.490908 )
+radius = 0.05
+
+[node name="Triangle32" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 63 )
 material/0 = SubResource( 64 )
 
-[node name="32" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle32"]
+transform = Transform( -2.56929e-09, -0.0209735, -0.0549093, 0, 0.0549093, -0.0209735, 0.0587785, -9.1678e-10, -2.40016e-09, -1.67653, -0.640378, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle32"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.946175, -1.11534, 0.490908 )
+radius = 0.05
+
+[node name="Triangle33" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 65 )
 material/0 = SubResource( 66 )
 
-[node name="33" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle33"]
+transform = Transform( -0.0379545, 0, -0.0355135, 0, 0.0519784, 0, 0.0355135, 0, -0.0379545, -1.18512, 0, -1.37282 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle33"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.07424, -0.414531, -1.56681 )
+radius = 0.05
+
+[node name="Triangle34" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 67 )
 material/0 = SubResource( 68 )
 
-[node name="34" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle34"]
+transform = Transform( -0.0512838, 0.00277022, -0.008003, 0, 0.0491189, 0.0170024, 0.00846889, 0.0167752, -0.0484626, -0.320189, 0.534554, -1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle34"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.474612, -0.15336, -2.41237 )
+radius = 0.05
+
+[node name="Triangle35" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 69 )
 material/0 = SubResource( 70 )
 
-[node name="35" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle35"]
+transform = Transform( -0.0579931, -0.00313264, -0.00905001, 0, 0.055545, -0.0192268, 0.00957685, -0.0189698, -0.0548028, -0.320189, -0.534554, -1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle35"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.470285, -0.9075, -1.21733 )
+radius = 0.05
+
+[node name="Triangle36" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 71 )
 material/0 = SubResource( 72 )
 
-[node name="36" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle36"]
+transform = Transform( -0.0549093, 0, -0.0209735, 0, 0.0587785, 0, 0.0209735, 0, -0.0549093, -0.640378, 0, -1.67653 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle36"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54588, -0.414531, -1.58581 )
+radius = 0.05
+
+[node name="Triangle37" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 73 )
 material/0 = SubResource( 74 )
 
-[node name="37" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle37"]
+transform = Transform( -0.0495047, -0.00912982, 0.0129491, 0, 0.0424813, 0.0299515, -0.015844, 0.0285261, -0.0404596, 0.518077, 1.05263, -1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle37"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.800643, 0.222022, -1.86284 )
+radius = 0.05
+
+[node name="Triangle38" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 75 )
 material/0 = SubResource( 76 )
 
-[node name="38" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle38"]
+transform = Transform( -0.0206269, -0.0371374, 0.0299515, 0, 0.0326309, 0.0404596, -0.0477104, 0.0160559, -0.0129491, 1.05263, 1.383, -0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle38"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46365, 0.472701, -0.468987 )
+radius = 0.05
+
+[node name="Triangle39" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 77 )
 material/0 = SubResource( 78 )
 
-[node name="39" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle39"]
+transform = Transform( -0.0349726, -0.0117692, 0.0457528, 0, 0.0569253, 0.0146432, -0.0472422, 0.00871257, -0.03387, 1.383, 0.518077, -1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle39"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.81189, -0.134012, -1.6778 )
+radius = 0.05
+
+[node name="Triangle40" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 79 )
 material/0 = SubResource( 80 )
 
-[node name="40" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle40"]
+transform = Transform( -0.0415627, -0.0239962, 0.0339358, 0, 0.0479925, 0.0339358, -0.0415627, 0.0239962, -0.0339358, 1.03615, 1.03615, -1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle40"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3284, 0.204471, -1.50827 )
+radius = 0.05
+
+[node name="Triangle41" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 81 )
 material/0 = SubResource( 82 )
 
-[node name="41" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle41"]
+transform = Transform( 0.0206269, 0.0371374, 0.0299515, 0, 0.0326309, -0.0404596, -0.0477104, 0.0160558, 0.0129491, 1.05263, -1.383, 0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle41"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.266577, -1.86732, 0.902203 )
+radius = 0.05
+
+[node name="Triangle42" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 83 )
 material/0 = SubResource( 84 )
 
-[node name="42" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle42"]
+transform = Transform( 0.0309266, 0.0104076, 0.0404596, 0, 0.0503396, -0.0129491, -0.0417768, 0.00770459, 0.0299515, 1.383, -0.518077, 1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle42"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.77501, -0.60027, 1.96891 )
+radius = 0.05
+
+[node name="Triangle43" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 85 )
 material/0 = SubResource( 86 )
 
-[node name="43" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle43"]
+transform = Transform( 0.0559813, 0.0103242, 0.0146432, 0, 0.0480389, -0.03387, -0.0179168, 0.0322581, 0.0457528, 0.518077, -1.05263, 1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle43"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0307168, -1.87476, 1.23159 )
+radius = 0.05
+
+[node name="Triangle44" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 87 )
 material/0 = SubResource( 88 )
 
-[node name="44" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle44"]
+transform = Transform( 0.0415627, 0.0239962, 0.0339358, 0, 0.0479925, -0.0339358, -0.0415627, 0.0239962, 0.0339358, 1.03615, -1.03615, 1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle44"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.262222, -1.54217, 1.41692 )
+radius = 0.05
+
+[node name="Triangle45" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 89 )
 material/0 = SubResource( 90 )
 
-[node name="45" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle45"]
+transform = Transform( 0.0221366, 0.0438479, 0.0170024, 0, 0.0187918, -0.0484626, -0.047029, 0.0206393, 0.00800305, 0.534554, -1.70319, 0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle45"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0302678, -2.36369, 0.814874 )
+radius = 0.05
+
+[node name="Triangle46" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 91 )
 material/0 = SubResource( 92 )
 
-[node name="46" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle46"]
+transform = Transform( 0.0519784, 0, 0, 0, 0.0355134, -0.0379545, 0, 0.0379545, 0.0355134, 0, -1.37282, 1.18512 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle46"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.326512, -2.30818, 1.32107 )
+radius = 0.05
+
+[node name="Triangle47" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 93 )
 material/0 = SubResource( 94 )
 
-[node name="47" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle47"]
+transform = Transform( 0.0250326, -0.0495844, -0.0192268, 0, 0.0212502, -0.0548028, 0.0531816, 0.0233394, 0.00905006, -0.534554, -1.70319, 0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle47"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.598709, -2.52225, 0.8903 )
+radius = 0.05
+
+[node name="Triangle48" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 95 )
 material/0 = SubResource( 96 )
 
-[node name="48" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle48"]
+transform = Transform( 0.0587785, 0, 0, 0, 0.0209735, -0.0549093, 0, 0.0549093, 0.0209735, 0, -1.67653, 0.640378 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle48"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.326512, -2.52389, 1.05915 )
+radius = 0.05
+
+[node name="Triangle49" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 97 )
 material/0 = SubResource( 98 )
 
-[node name="49" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle49"]
+transform = Transform( -0.0221365, 0.043848, 0.0170024, 0, 0.0187918, -0.0484626, -0.047029, -0.0206392, -0.00800302, 0.534554, -1.70319, -0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle49"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0918793, -2.14681, 0.320734 )
+radius = 0.05
+
+[node name="Triangle50" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 99 )
 material/0 = SubResource( 100 )
 
-[node name="50" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle50"]
+transform = Transform( -0.0221365, -0.043848, -0.0170024, 0, 0.0187918, -0.0484626, 0.047029, -0.0206392, -0.00800302, -0.534554, -1.70319, -0.320189 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle50"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5225, -2.25398, 0.514367 )
+radius = 0.05
+
+[node name="Triangle51" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 101 )
 material/0 = SubResource( 102 )
 
-[node name="51" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle51"]
+transform = Transform( -0.0587785, -3.75218e-09, -3.51086e-09, 0, 0.0401596, -0.04292, 5.13858e-09, -0.04292, -0.0401596, 0, -1.37282, -1.18512 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle51"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0257308, -1.4811, -0.191328 )
+radius = 0.05
+
+[node name="Triangle52" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 103 )
 material/0 = SubResource( 104 )
 
-[node name="52" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle52"]
+transform = Transform( -0.0587785, -4.80032e-09, -1.83356e-09, 0, 0.0209735, -0.0549093, 5.13858e-09, -0.0549093, -0.0209735, 0, -1.67653, -0.640378 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle52"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0257308, -2.08707, 0.271103 )
+radius = 0.05
+
+[node name="Triangle53" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 105 )
 material/0 = SubResource( 106 )
 
-[node name="53" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle53"]
+transform = Transform( -0.0206269, 0.0371374, 0.0299515, 0, 0.0326309, -0.0404596, -0.0477104, -0.0160558, -0.0129491, 1.05263, -1.383, -0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle53"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.348499, -1.4791, 0.18546 )
+radius = 0.05
+
+[node name="Triangle54" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 107 )
 material/0 = SubResource( 108 )
 
-[node name="54" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle54"]
+transform = Transform( -0.0495047, 0.00912982, 0.0129491, 0, 0.0424813, -0.0299515, -0.015844, -0.0285261, -0.0404596, 0.518077, -1.05263, -1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle54"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.693669, -0.958431, -0.403058 )
+radius = 0.05
+
+[node name="Triangle55" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 109 )
 material/0 = SubResource( 110 )
 
-[node name="55" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle55"]
+transform = Transform( -0.0349726, 0.0117692, 0.0457528, 0, 0.0569253, -0.0146432, -0.0472422, -0.00871256, -0.03387, 1.383, -0.518077, -1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle55"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.710383, -0.0924576, -0.447297 )
+radius = 0.05
+
+[node name="Triangle56" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 111 )
 material/0 = SubResource( 112 )
 
-[node name="56" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle56"]
+transform = Transform( -0.0415627, 0.0239962, 0.0339358, 0, 0.0479925, -0.0339358, -0.0415627, -0.0239962, -0.0339358, 1.03615, -1.03615, -1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle56"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23263, -0.893858, -0.458137 )
+radius = 0.05
+
+[node name="Triangle57" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 113 )
 material/0 = SubResource( 114 )
 
-[node name="57" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle57"]
+transform = Transform( -2.27205e-09, 0.0355135, 0.0379545, 0, 0.0379545, -0.0355135, -0.0519784, -1.55234e-09, -1.65904e-09, 1.37282, -1.18512, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle57"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.427927, -1.41123, 0.236746 )
+radius = 0.05
+
+[node name="Triangle58" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 115 )
 material/0 = SubResource( 116 )
 
-[node name="58" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle58"]
+transform = Transform( -0.0172076, 0.00755172, 0.0484626, 0, 0.0513586, -0.00800299, -0.0490474, -0.00264941, -0.0170024, 1.70319, -0.320189, -0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle58"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.35819, 0.164229, 0.269381 )
+radius = 0.05
+
+[node name="Triangle59" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 117 )
 material/0 = SubResource( 118 )
 
-[node name="59" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle59"]
+transform = Transform( 0.0194588, 0.00853969, 0.0548028, 0, 0.0580776, -0.00905, -0.0554641, 0.00299603, 0.0192268, 1.70319, -0.320189, 0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle59"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.73462, -0.406799, 1.5303 )
+radius = 0.05
+
+[node name="Triangle60" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 119 )
 material/0 = SubResource( 120 )
 
-[node name="60" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle60"]
+transform = Transform( -2.56929e-09, 0.0209735, 0.0549093, 0, 0.0549093, -0.0209735, -0.0587785, -9.1678e-10, -2.40016e-09, 1.67653, -0.640378, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle60"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.70805, -0.562947, 0.236746 )
+radius = 0.05
+
+[node name="Triangle61" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 121 )
 material/0 = SubResource( 122 )
 
-[node name="61" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle61"]
+transform = Transform( 0.0512838, 0.00277022, 0.008003, 0, 0.0491189, -0.0170024, -0.00846889, 0.0167752, 0.0484626, 0.320189, -0.534554, 1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle61"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.284254, -0.522337, 2.49975 )
+radius = 0.05
+
+[node name="Triangle62" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 123 )
 material/0 = SubResource( 124 )
 
-[node name="62" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle62"]
+transform = Transform( 0.0379545, 0, 0.0355135, 0, 0.0519784, 0, -0.0355135, 0, 0.0379545, 1.18512, 0, 1.37282 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle62"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7159, -0.389739, 2.1254 )
+radius = 0.05
+
+[node name="Triangle63" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 125 )
 material/0 = SubResource( 126 )
 
-[node name="63" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle63"]
+transform = Transform( 0.0579931, -0.00313264, 0.00905001, 0, 0.055545, 0.0192268, -0.00957685, -0.0189699, 0.0548028, 0.320189, 0.534554, 1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle63"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.611704, 0.0254171, 2.51301 )
+radius = 0.05
+
+[node name="Triangle64" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 127 )
 material/0 = SubResource( 128 )
 
-[node name="64" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle64"]
+transform = Transform( 0.0549093, 0, 0.0209735, 0, 0.0587785, 0, -0.0209735, 0, 0.0549093, 0.640378, 0, 1.67653 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle64"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.830271, -0.260091, 2.62326 )
+radius = 0.05
+
+[node name="Triangle65" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 129 )
 material/0 = SubResource( 130 )
 
-[node name="65" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle65"]
+transform = Transform( 0.0206269, -0.0371374, -0.0299515, 0, 0.0326309, -0.0404596, 0.0477104, 0.0160558, 0.0129491, -1.05263, -1.383, 0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle65"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.796027, -2.24622, 0.952838 )
+radius = 0.05
+
+[node name="Triangle66" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 131 )
 material/0 = SubResource( 132 )
 
-[node name="66" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle66"]
+transform = Transform( 0.0495047, -0.0091298, -0.0129491, 0, 0.0424813, -0.0299515, 0.015844, 0.0285261, 0.0404596, -0.518077, -1.05263, 1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle66"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.631015, -0.735972, 2.3248 )
+radius = 0.05
+
+[node name="Triangle67" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 133 )
 material/0 = SubResource( 134 )
 
-[node name="67" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle67"]
+transform = Transform( 0.0349726, -0.0117692, -0.0457528, 0, 0.0569253, -0.0146432, 0.0472422, 0.00871256, 0.03387, -1.383, -0.518077, 1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle67"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.88004, -0.0116106, 1.75722 )
+radius = 0.05
+
+[node name="Triangle68" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 135 )
 material/0 = SubResource( 136 )
 
-[node name="68" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle68"]
+transform = Transform( 0.0415627, -0.0239962, -0.0339358, 0, 0.0479925, -0.0339358, 0.0415627, 0.0239962, 0.0339358, -1.03615, -1.03615, 1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle68"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.746142, -1.96029, 1.28487 )
+radius = 0.05
+
+[node name="Triangle69" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 137 )
 material/0 = SubResource( 138 )
 
-[node name="69" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle69"]
+transform = Transform( -0.0495047, -0.00912982, -0.0129491, 0, 0.0424813, -0.0299515, 0.015844, -0.0285261, -0.0404596, -0.518077, -1.05263, -1.383 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle69"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.185863, -1.61518, -0.949411 )
+radius = 0.05
+
+[node name="Triangle70" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 139 )
 material/0 = SubResource( 140 )
 
-[node name="70" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle70"]
+transform = Transform( -0.0206269, -0.0371374, -0.0299515, 0, 0.0326309, -0.0404596, 0.0477104, -0.0160559, -0.0129491, -1.05263, -1.383, -0.518077 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle70"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.533558, -2.07882, -0.0216833 )
+radius = 0.05
+
+[node name="Triangle71" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 141 )
 material/0 = SubResource( 142 )
 
-[node name="71" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle71"]
+transform = Transform( -0.0349726, -0.0117692, -0.0457528, 0, 0.0569253, -0.0146432, 0.0472422, -0.00871256, -0.03387, -1.383, -0.518077, -1.05263 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle71"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.486199, -0.960463, -1.04662 )
+radius = 0.05
+
+[node name="Triangle72" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 143 )
 material/0 = SubResource( 144 )
 
-[node name="72" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle72"]
+transform = Transform( -0.0415627, -0.0239962, -0.0339358, 0, 0.0479925, -0.0339358, 0.0415627, -0.0239962, -0.0339358, -1.03615, -1.03615, -1.03615 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle72"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.374794, -1.53895, -0.479557 )
+radius = 0.05
+
+[node name="Triangle73" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 145 )
 material/0 = SubResource( 146 )
 
-[node name="73" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle73"]
+transform = Transform( -0.0379545, 0, 0.0355135, 0, 0.0519784, 0, -0.0355135, 0, -0.0379545, 1.18512, 0, -1.37282 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle73"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8612, -0.378191, -2.00519 )
+radius = 0.05
+
+[node name="Triangle74" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 147 )
 material/0 = SubResource( 148 )
 
-[node name="74" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle74"]
+transform = Transform( -0.0512838, 0.00277022, 0.008003, 0, 0.0491189, -0.0170024, -0.00846889, -0.0167752, -0.0484626, 0.320189, -0.534554, -1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle74"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.19032, -0.997595, -1.53448 )
+radius = 0.05
+
+[node name="Triangle75" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 149 )
 material/0 = SubResource( 150 )
 
-[node name="75" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle75"]
+transform = Transform( -0.0579931, -0.00313264, 0.00905001, 0, 0.055545, 0.0192268, -0.00957685, 0.0189698, -0.0548028, 0.320189, 0.534554, -1.70319 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle75"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0113152, -0.179724, -2.31956 )
+radius = 0.05
+
+[node name="Triangle76" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 151 )
 material/0 = SubResource( 152 )
 
-[node name="76" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle76"]
+transform = Transform( -0.0549093, 0, 0.0209735, 0, 0.0587785, 0, -0.0209735, 0, -0.0549093, 0.640378, 0, -1.67653 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle76"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.48884, -0.505526, -1.51983 )
+radius = 0.05
+
+[node name="Triangle77" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 153 )
 material/0 = SubResource( 154 )
 
-[node name="77" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle77"]
+transform = Transform( 0.0172076, -0.00755172, 0.0484626, 0, 0.0513586, 0.00800299, -0.0490474, -0.00264941, 0.0170024, 1.70319, 0.320189, 0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle77"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.79998, -0.330949, 1.28732 )
+radius = 0.05
+
+[node name="Triangle78" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 155 )
 material/0 = SubResource( 156 )
 
-[node name="78" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle78"]
+transform = Transform( -0.0172076, -0.00755172, 0.0484626, 0, 0.0513586, 0.00800299, -0.0490474, 0.00264941, -0.0170024, 1.70319, 0.320189, -0.534554 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle78"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9849, -0.29653, -1.2696 )
+radius = 0.05
+
+[node name="Triangle79" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 157 )
 material/0 = SubResource( 158 )
 
-[node name="79" type="MeshInstance" parent="Sphere"]
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle79"]
+transform = Transform( -2.56929e-09, -0.0401596, 0.04292, 0, 0.04292, 0.0401596, -0.0587785, 1.75543e-09, -1.87609e-09, 1.37282, 1.18512, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle79"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.71986, 0.477191, 0.615146 )
+radius = 0.05
+
+[node name="Triangle80" type="MeshInstance" parent="Sphere"]
 mesh = SubResource( 159 )
 material/0 = SubResource( 160 )
+
+[node name="Arrow" type="Sprite3D" parent="Sphere/Triangle80"]
+transform = Transform( -2.56929e-09, -0.0209735, 0.0549093, 0, 0.0549093, 0.0209735, -0.0587785, 9.1678e-10, -2.40016e-09, 1.67653, 0.640378, 0 )
+texture = ExtResource( 2 )
+
+[node name="CSGSphere" type="CSGSphere" parent="Sphere/Triangle80"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.48205, -0.0729238, 0.673334 )
+radius = 0.05

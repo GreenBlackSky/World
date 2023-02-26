@@ -8,7 +8,7 @@ var vert3: Vector3
 var normale: Vector3
 var neighbours: Array
 
-var mesh_instance
+var mesh_instance: MeshInstance
 
 const VECTOR_TOLERANCE: float = 0.001
 
@@ -79,7 +79,7 @@ func are_vectors_similar(vec1: Vector3, vec2: Vector3) -> bool:
 	return abs(dot_product - mag_product) < VECTOR_TOLERANCE
 
 
-func draw(parent: Spatial, name: String) -> void:
+func draw(parent: Spatial) -> void:
 	var surface_array = []
 	surface_array.resize(Mesh.ARRAY_MAX)
 	var vertices = PoolVector3Array()
@@ -99,7 +99,7 @@ func draw(parent: Spatial, name: String) -> void:
 	
 	mesh_instance = MeshInstance.new()
 	mesh_instance.mesh = mesh
-	mesh_instance.name = name
+	mesh_instance.name = "Triangle"
 
 	parent.add_child(mesh_instance)
 	mesh_instance.set_owner(parent.get_tree().edited_scene_root)
