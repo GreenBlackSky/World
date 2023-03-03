@@ -211,11 +211,11 @@ func calculate_plates_movement_directions():
 		if triangle.movement_direction == Vector3.ZERO:
 			for neighbour in triangle.neighbours:
 				if neighbour.movement_direction != Vector3.ZERO:
-					var axis = triangle.normale.cross(neighbour.normale).normalized()
+					var axis = -triangle.normale.cross(neighbour.normale).normalized()
 					var angle = triangle.normale.angle_to(neighbour.normale)
-					triangle.movement_direction = neighbour.movement_direction.rotated(axis, angle)
+					triangle.movement_direction = neighbour.movement_direction.rotated(axis, angle).normalized()
 					break
-			
+
 		for neighbour in triangle.neighbours:
 			if neighbour.movement_direction == Vector3.ZERO:
 				queue.append(neighbour)
