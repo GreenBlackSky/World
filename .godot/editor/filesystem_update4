@@ -1,0 +1,4 @@
+res://default_env.tres
+res://scenes/test.tscn
+res://scripts/sphere_directed.gd
+res://scripts/triangle.gd

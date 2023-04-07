@@ -1,0 +1,366 @@
+[gd_scene load_steps=42 format=3 uid="uid://wi25snj62qc3"]
+
+[ext_resource type="Script" path="res://scripts/sphere_plated.gd" id="1"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fv372"]
+_surfaces = [{
+"aabb": AABB(-1.61803, 0, 0, 1.61803, 1.61804, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kxprb"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_n7v7f"]
+_surfaces = [{
+"aabb": AABB(-1, 1, 0, 2, 0.618044, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_54uth"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ktusi"]
+_surfaces = [{
+"aabb": AABB(-1, 1, -1.61803, 2, 0.618044, 1.61804),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1sh4y"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cube2"]
+_surfaces = [{
+"aabb": AABB(-1.61803, 0, -1.61803, 1.61803, 1.61804, 1.61804),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nkbx7"]
+albedo_color = Color(0.922928, 0.355024, 0.798398, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_f8hdq"]
+_surfaces = [{
+"aabb": AABB(-1.61803, 0, -1, 0.618044, 1.61804, 2),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xgeiv"]
+albedo_color = Color(0.922928, 0.355024, 0.798398, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ovyit"]
+_surfaces = [{
+"aabb": AABB(0, 0, 0, 1.61803, 1.61804, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tsvyh"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pevpf"]
+_surfaces = [{
+"aabb": AABB(-1.61803, -1, 1, 1.61804, 2.00001, 0.618044),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sk0qv"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nmyfj"]
+_surfaces = [{
+"aabb": AABB(-1.61803, -1.61803, -1, 0.618034, 1.61804, 2.00001),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kscir"]
+albedo_color = Color(0.922928, 0.355024, 0.798398, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_w1668"]
+_surfaces = [{
+"aabb": AABB(-1.61803, -1, -1.61803, 1.61803, 2, 0.618044),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xlt7r"]
+albedo_color = Color(0.922928, 0.355024, 0.798398, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1rtj5"]
+_surfaces = [{
+"aabb": AABB(0, 0, -1.61803, 1.61803, 1.61803, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wg2cm"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cm5cr"]
+_surfaces = [{
+"aabb": AABB(0, -1.61803, 0, 1.61803, 1.61803, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_to6y0"]
+albedo_color = Color(0.972584, 0.84977, 0.15315, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_07vic"]
+_surfaces = [{
+"aabb": AABB(-1, -1.61803, 0, 2.00001, 0.618034, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wqo20"]
+albedo_color = Color(0.972584, 0.84977, 0.15315, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_kw0we"]
+_surfaces = [{
+"aabb": AABB(-1, -1.61803, -1.61803, 2.00001, 0.618034, 1.61804),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bafhr"]
+albedo_color = Color(0.972584, 0.84977, 0.15315, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0ugny"]
+_surfaces = [{
+"aabb": AABB(0, -1.61803, -1.61803, 1.61803, 1.61803, 1.61804),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lrrji"]
+albedo_color = Color(0.972584, 0.84977, 0.15315, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_v8otw"]
+_surfaces = [{
+"aabb": AABB(1, -1.61803, -1, 0.618034, 1.61803, 2),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_33ktc"]
+albedo_color = Color(0.972584, 0.84977, 0.15315, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_w43wo"]
+_surfaces = [{
+"aabb": AABB(0, -1, 1, 1.61803, 2, 0.618044),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gkhbj"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vgfrl"]
+_surfaces = [{
+"aabb": AABB(-1.61803, -1.61803, 0, 1.61803, 1.61803, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0u1dr"]
+albedo_color = Color(0.922928, 0.355024, 0.798398, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1klfl"]
+_surfaces = [{
+"aabb": AABB(-1.61803, -1.61803, -1.61803, 1.61804, 1.61803, 1.61803),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_516kd"]
+albedo_color = Color(0.922928, 0.355024, 0.798398, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cnrpa"]
+_surfaces = [{
+"aabb": AABB(0, -1, -1.61803, 1.61804, 2, 0.618044),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6kp2w"]
+albedo_color = Color(0.922928, 0.355024, 0.798398, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_m4rg7"]
+_surfaces = [{
+"aabb": AABB(1, 0, -1, 0.618044, 1.61803, 2.00001),
+"format": 4097,
+"index_count": 3,
+"index_data": PackedByteArray(2, 0, 1, 0, 0, 0),
+"primitive": 3,
+"vertex_count": 3,
+"vertex_data": PackedByteArray(189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4i70t"]
+albedo_color = Color(0.78516, 0.0267763, 0.999488, 1)
+
+[node name="SpherePlated" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Triangle" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_fv372")
+surface_material_override/0 = SubResource("StandardMaterial3D_kxprb")
+
+[node name="@Triangle@33397" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_n7v7f")
+surface_material_override/0 = SubResource("StandardMaterial3D_54uth")
+
+[node name="@Triangle@33398" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_ktusi")
+surface_material_override/0 = SubResource("StandardMaterial3D_1sh4y")
+
+[node name="@Triangle@33399" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_cube2")
+surface_material_override/0 = SubResource("StandardMaterial3D_nkbx7")
+
+[node name="@Triangle@33400" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_f8hdq")
+surface_material_override/0 = SubResource("StandardMaterial3D_xgeiv")
+
+[node name="@Triangle@33401" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_ovyit")
+surface_material_override/0 = SubResource("StandardMaterial3D_tsvyh")
+
+[node name="@Triangle@33402" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_pevpf")
+surface_material_override/0 = SubResource("StandardMaterial3D_sk0qv")
+
+[node name="@Triangle@33403" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_nmyfj")
+surface_material_override/0 = SubResource("StandardMaterial3D_kscir")
+
+[node name="@Triangle@33404" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_w1668")
+surface_material_override/0 = SubResource("StandardMaterial3D_xlt7r")
+
+[node name="@Triangle@33405" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_1rtj5")
+surface_material_override/0 = SubResource("StandardMaterial3D_wg2cm")
+
+[node name="@Triangle@33406" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_cm5cr")
+surface_material_override/0 = SubResource("StandardMaterial3D_to6y0")
+
+[node name="@Triangle@33407" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_07vic")
+surface_material_override/0 = SubResource("StandardMaterial3D_wqo20")
+
+[node name="@Triangle@33408" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_kw0we")
+surface_material_override/0 = SubResource("StandardMaterial3D_bafhr")
+
+[node name="@Triangle@33409" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_0ugny")
+surface_material_override/0 = SubResource("StandardMaterial3D_lrrji")
+
+[node name="@Triangle@33410" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_v8otw")
+surface_material_override/0 = SubResource("StandardMaterial3D_33ktc")
+
+[node name="@Triangle@33411" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_w43wo")
+surface_material_override/0 = SubResource("StandardMaterial3D_gkhbj")
+
+[node name="@Triangle@33412" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_vgfrl")
+surface_material_override/0 = SubResource("StandardMaterial3D_0u1dr")
+
+[node name="@Triangle@33413" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_1klfl")
+surface_material_override/0 = SubResource("StandardMaterial3D_516kd")
+
+[node name="@Triangle@33414" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_cnrpa")
+surface_material_override/0 = SubResource("StandardMaterial3D_6kp2w")
+
+[node name="@Triangle@33415" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_m4rg7")
+surface_material_override/0 = SubResource("StandardMaterial3D_4i70t")
