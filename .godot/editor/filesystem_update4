@@ -1,4 +1,4 @@
 res://default_env.tres
-res://scenes/test.tscn
-res://scripts/sphere_directed.gd
-res://scripts/triangle.gd
+res://scenes/SphereDirected.tscn
+res://scenes/world_builder.tscn
+res://scenes/Sphere.tscn

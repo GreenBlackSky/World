@@ -75,12 +75,12 @@ func create_tectonic_plates():
 	while not queue.is_empty():
 		var triangle = queue.pop_front()
 		if triangle.plate_index == PlateTriangle.NO_PLATE_INDEX:
-			for neighbour in triangle.neighbours:
+			for neighbour in triangle.neighbours():
 				if neighbour.plate_index != PlateTriangle.NO_PLATE_INDEX:
 					triangle.plate_index = neighbour.plate_index
 					break
 		
-		for neighbour in triangle.neighbours:
+		for neighbour in triangle.neighbours():
 			if neighbour.plate_index == PlateTriangle.NO_PLATE_INDEX:
 				queue.add(neighbour)
 

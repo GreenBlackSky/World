@@ -8,6 +8,10 @@ const NO_PLATE_INDEX = -1
 var plate_index: int = -1
 
 
+func _init(vertice1: Vector3, vertice2: Vector3, vertice3: Vector3):
+	super._init(vertice1, vertice2, vertice3)
+
+
 func update_radius(R: float):
 	var material = self.mesh_instance.get_surface_override_material(0)
 	super.update_radius(R)

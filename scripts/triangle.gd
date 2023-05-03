@@ -2,92 +2,75 @@ extends Node
 
 class_name Triangle
 
-var vert1: Vector3
-var vert2: Vector3
-var vert3: Vector3
+var A: Vector3
+var B: Vector3
+var C: Vector3
+
+var AB: Triangle
+var BC: Triangle
+var CA: Triangle
+
+var ABtemp: TriangleHolder
+var BCtemp: TriangleHolder
+var CAtemp: TriangleHolder
+
+
 var normale: Vector3
-var neighbours: Array
+var id: int
 
 var mesh_instance: MeshInstance3D
-# TODO need to be part of the mesh
 
 const VECTOR_TOLERANCE: float = 0.001
 
 
 func _init(vertice1: Vector3,vertice2: Vector3,vertice3: Vector3):
-	vert1 = vertice1
-	vert2 = vertice2
-	vert3 = vertice3
-	var U = vert2 - vert1
-	var V = vert3 - vert1
+	A = vertice1
+	B = vertice2
+	C = vertice3
+	var U = B - A
+	var V = C - A
 	normale = U.cross(V).normalized()
 
 
 func _to_string() -> String:
-	return "Triangle obgect(%s, %s, %s)" % [str(vert1), str(vert2), str(vert3)]
+	return "△ %d" % id
 
 
 func vertices() -> Array:
-	return [self.vert1, self.vert2, self.vert3]
+	return [self.A, self.B, self.C]
 
 
-func rounded_vertices() -> Array:
-	var ret  = []
-	for vert in vertices():
-		ret.append(
-			Vector3(
-				snapped(vert.x, 0.001),
-				snapped(vert.y, 0.001),
-				snapped(vert.z, 0.001)
-			)
-		)
-	return ret
+func neighbours() -> Array:
+	return [self.AB, self.BC, self.CA]
 
 
-func subdivide() -> Array:
-	var radius: float = vert1.length()
+func generate_children() -> Array:
+#		A
+#	   / \
+#	  D---F
+#	 / \ / \
+#	B---E---C
+	var radius: float = A.length()
 
-	var vert4 = ((vert1 + vert2)/2).normalized() * radius
-	var vert5 = ((vert2 + vert3)/2).normalized() * radius
-	var vert6 = ((vert3 + vert1)/2).normalized() * radius
+	var D = ((A + B)/2).normalized() * radius
+	var E = ((B + C)/2).normalized() * radius
+	var F = ((C + A)/2).normalized() * radius
 
-	return [
-		get_script().new(vert1, vert4, vert6),
-		get_script().new(vert4, vert2, vert5),
-		get_script().new(vert6, vert5, vert3), 
-		get_script().new(vert5, vert6, vert4)
-	]
+	var top = get_script().new(A, D, F)
+	var left = get_script().new(D, B, E)
+	var right = get_script().new(F, E, C)
+	var center = get_script().new(E, F, D)
 
-
-func is_neighbour(partner) -> bool:
-	var count = 0
-	for v in vertices():
-		for vt in partner.vertices():
-			if are_vectors_similar(v, vt):
-				count+= 1
-	if count == 2:
-		return true
-	return false
-
-
-func add_neghbour(partner) -> void:
-	if not neighbours.has(partner):
-		neighbours.append(partner)
-
-
-func are_vectors_similar(vec1: Vector3, vec2: Vector3) -> bool:
-	var dot_product = vec1.dot(vec2)
-	var mag_product = vec1.length() * vec2.length()
-	return abs(dot_product - mag_product) < VECTOR_TOLERANCE
+	return [top, left, right, center]
 
 
 func update_radius(R: float):
-	vert1 = vert1.normalized() * R
-	vert2 = vert2.normalized() * R
-	vert3 = vert3.normalized() * R
+	A = A.normalized() * R
+	B = B.normalized() * R
+	C = C.normalized() * R
 	
-	var U = vert2 - vert1
-	var V = vert3 - vert1
+	var U = B - A
+	var V = C - A
 	normale = U.cross(V).normalized()
 
 	if mesh_instance != null:

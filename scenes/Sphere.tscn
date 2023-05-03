@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/sphere.gd" id="1"]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_oeou3"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_p1eer"]
 _surfaces = [{
 "aabb": AABB(-1.61803, 0, 0, 1.61803, 1.61804, 1.61803),
 "format": 4097,
@@ -13,7 +13,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_3eb4v"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_fjgka"]
 _surfaces = [{
 "aabb": AABB(-1, 1, 0, 2, 0.618044, 1.61803),
 "format": 4097,
@@ -24,7 +24,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_sktdv"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_5ucj6"]
 _surfaces = [{
 "aabb": AABB(-1, 1, -1.61803, 2, 0.618044, 1.61804),
 "format": 4097,
@@ -35,7 +35,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_cxmbf"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_m3iqc"]
 _surfaces = [{
 "aabb": AABB(-1.61803, 0, -1.61803, 1.61803, 1.61804, 1.61804),
 "format": 4097,
@@ -46,7 +46,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_fj82y"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_te6jq"]
 _surfaces = [{
 "aabb": AABB(-1.61803, 0, -1, 0.618044, 1.61804, 2),
 "format": 4097,
@@ -57,7 +57,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_rdfyt"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_t7qfm"]
 _surfaces = [{
 "aabb": AABB(0, 0, 0, 1.61803, 1.61804, 1.61803),
 "format": 4097,
@@ -68,7 +68,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_s3t5i"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_xs2vn"]
 _surfaces = [{
 "aabb": AABB(-1.61803, -1, 1, 1.61804, 2.00001, 0.618044),
 "format": 4097,
@@ -79,7 +79,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_5yfg4"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_j0vla"]
 _surfaces = [{
 "aabb": AABB(-1.61803, -1.61803, -1, 0.618034, 1.61804, 2.00001),
 "format": 4097,
@@ -90,7 +90,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_vjvoo"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_57u15"]
 _surfaces = [{
 "aabb": AABB(-1.61803, -1, -1.61803, 1.61803, 2, 0.618044),
 "format": 4097,
@@ -101,7 +101,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_tkiy0"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_6mm0b"]
 _surfaces = [{
 "aabb": AABB(0, 0, -1.61803, 1.61803, 1.61803, 1.61803),
 "format": 4097,
@@ -112,7 +112,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 128, 63, 189, 27, 207, 63, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_0jk45"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_hopxk"]
 _surfaces = [{
 "aabb": AABB(0, -1.61803, 0, 1.61803, 1.61803, 1.61803),
 "format": 4097,
@@ -123,7 +123,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_322hp"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_fvidb"]
 _surfaces = [{
 "aabb": AABB(-1, -1.61803, 0, 2.00001, 0.618034, 1.61803),
 "format": 4097,
@@ -134,7 +134,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_v3yus"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_csujn"]
 _surfaces = [{
 "aabb": AABB(-1, -1.61803, -1.61803, 2.00001, 0.618034, 1.61804),
 "format": 4097,
@@ -145,7 +145,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ie7y2"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_cs6sb"]
 _surfaces = [{
 "aabb": AABB(0, -1.61803, -1.61803, 1.61803, 1.61803, 1.61804),
 "format": 4097,
@@ -156,7 +156,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_3cc4c"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_mk430"]
 _surfaces = [{
 "aabb": AABB(1, -1.61803, -1, 0.618034, 1.61803, 2),
 "format": 4097,
@@ -167,7 +167,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 63, 189, 27, 207, 191, 0, 0, 0, 0, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ubj7w"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_sqie2"]
 _surfaces = [{
 "aabb": AABB(0, -1, 1, 1.61803, 2, 0.618044),
 "format": 4097,
@@ -178,7 +178,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_kdml3"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_ow6ve"]
 _surfaces = [{
 "aabb": AABB(-1.61803, -1.61803, 0, 1.61803, 1.61803, 1.61803),
 "format": 4097,
@@ -189,7 +189,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 63, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_8k0y6"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_cdeyi"]
 _surfaces = [{
 "aabb": AABB(-1.61803, -1.61803, -1.61803, 1.61804, 1.61803, 1.61803),
 "format": 4097,
@@ -200,7 +200,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_rkomq"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_rnt8x"]
 _surfaces = [{
 "aabb": AABB(0, -1, -1.61803, 1.61804, 2, 0.618044),
 "format": 4097,
@@ -211,7 +211,7 @@ _surfaces = [{
 "vertex_data": PackedByteArray(189, 27, 207, 63, 0, 0, 0, 0, 0, 0, 128, 191, 0, 0, 0, 0, 0, 0, 128, 191, 189, 27, 207, 191, 0, 0, 0, 0, 0, 0, 128, 63, 189, 27, 207, 191)
 }]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_1scv8"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_wdjt0"]
 _surfaces = [{
 "aabb": AABB(1, 0, -1, 0.618044, 1.61803, 2.00001),
 "format": 4097,
@@ -226,61 +226,61 @@ _surfaces = [{
 script = ExtResource("1")
 
 [node name="Triangle" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_oeou3")
+mesh = SubResource("ArrayMesh_p1eer")
 
-[node name="@Triangle@23512" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_3eb4v")
+[node name="@Triangle@40907" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_fjgka")
 
-[node name="@Triangle@23513" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_sktdv")
+[node name="@Triangle@40908" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_5ucj6")
 
-[node name="@Triangle@23514" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_cxmbf")
+[node name="@Triangle@40909" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_m3iqc")
 
-[node name="@Triangle@23515" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_fj82y")
+[node name="@Triangle@40910" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_te6jq")
 
-[node name="@Triangle@23516" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_rdfyt")
+[node name="@Triangle@40911" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_t7qfm")
 
-[node name="@Triangle@23517" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_s3t5i")
+[node name="@Triangle@40912" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_xs2vn")
 
-[node name="@Triangle@23518" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_5yfg4")
+[node name="@Triangle@40913" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_j0vla")
 
-[node name="@Triangle@23519" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_vjvoo")
+[node name="@Triangle@40914" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_57u15")
 
-[node name="@Triangle@23520" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_tkiy0")
+[node name="@Triangle@40915" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_6mm0b")
 
-[node name="@Triangle@23521" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_0jk45")
+[node name="@Triangle@40916" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_hopxk")
 
-[node name="@Triangle@23522" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_322hp")
+[node name="@Triangle@40917" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_fvidb")
 
-[node name="@Triangle@23523" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_v3yus")
+[node name="@Triangle@40918" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_csujn")
 
-[node name="@Triangle@23524" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_ie7y2")
+[node name="@Triangle@40919" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_cs6sb")
 
-[node name="@Triangle@23525" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_3cc4c")
+[node name="@Triangle@40920" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_mk430")
 
-[node name="@Triangle@23526" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_ubj7w")
+[node name="@Triangle@40921" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_sqie2")
 
-[node name="@Triangle@23527" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_kdml3")
+[node name="@Triangle@40922" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_ow6ve")
 
-[node name="@Triangle@23528" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_8k0y6")
+[node name="@Triangle@40923" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_cdeyi")
 
-[node name="@Triangle@23529" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_rkomq")
+[node name="@Triangle@40924" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_rnt8x")
 
-[node name="@Triangle@23530" type="MeshInstance3D" parent="."]
-mesh = SubResource("ArrayMesh_1scv8")
+[node name="@Triangle@40925" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_wdjt0")
